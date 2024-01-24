@@ -1,0 +1,157 @@
+[
+    {
+        "instruction": "operation",
+        "input": "\\# AP1下有无线用户接入后，在汇聚交换机上可以查看到接入的无线用户信息。",
+        "output": "{'Subject': '汇聚交换机', 'Trigger Condition': 'AP1下有无线用户接入', 'Action': '可以查看到接入的无线用户信息'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "改变定时器的值会导致设备之间的BGP peer关系中断。",
+        "output": "{'Subject': '设备之间的BGP peer关系', 'Trigger Condition': '改变定时器的值', 'Action': '中断'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果用户在修改主密钥的过程中发生错误，系统会提示用户修改主密钥失败，并建议用户重试。",
+        "output": "{'Subject': '系统', 'Trigger Condition': '用户在修改主密钥的过程中发生错误', 'Action': '提示用户修改主密钥失败，并建议用户重试'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果有大量路由迭代到相同的下一跳，并且该下一跳频繁震荡时，系统就会频繁地处理迭代到该下一跳的大量路由的变化，这样会占用大量资源，导致CPU占用率升高。",
+        "output": "{'Subject': '系统', 'Trigger Condition': '有大量路由迭代到相同的下一跳，并且该下一跳频繁震荡', 'Action': '就会频繁地处理迭代到该下一跳的大量路由的变化，这样会占用大量资源，导致CPU占用率升高'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "在域管理模板下修改国家码后，会自动重启使用了该域管理模板的AP。",
+        "output": "{'Subject': '域管理模板', 'Trigger Condition': '在域管理模板下修改国家码', 'Action': '自动重启使用了该域管理模板的AP'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果网络中有用户向设备发送大量目标IP地址不能解析的IP报文（即路由表中存在该IP报文的目的IP对应的路由表项，但设备上没有该路由表项中下一跳对应的ARP表项），将导致设备触发大量的ARP Miss消息。",
+        "output": "{'Subject': '设备', 'Trigger Condition': '网络中有用户向设备发送大量目标IP地址不能解析的IP报文', 'Action': '触发大量的ARP Miss消息'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "手动停止或者测试时间超时，环回测试功能均会停止。",
+        "output": "{'Subject': '环回测试功能', 'Trigger Condition': '手动停止或者测试时间超时', 'Action': '均会停止'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "禁止接口下的动态ARP学习能力，可能会造成网络中断。",
+        "output": "{'Subject': '动态ARP学习能力', 'Trigger Condition': '禁止接口下的动态ARP学习能力', 'Action': '可能会造成网络中断'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当超过45s没有按动按钮，则模式状态灯自动恢复为默认模式。",
+        "output": "{'Subject': '模式状态灯', 'Trigger Condition': '超过45s没有按动按钮', 'Action': '自动恢复为默认模式'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果RouterC上发生故障，流量会由于路由重新选取而经过RouterB。流量丢失的问题发生在RouterC恢复正常的时候。",
+        "output": "{'Subject': '流量', 'Trigger Condition': 'RouterC上发生故障', 'Action': '由于路由重新选取而经过RouterB'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "清除IGMP控制报文统计信息后，以前的统计信息将无法恢复，务必仔细确认。",
+        "output": "{'Subject': '以前的统计信息', 'Trigger Condition': '清除IGMP控制报文统计信息', 'Action': '无法恢复'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "配置关闭MAC地址学习功能后，设备将不会再从该接口学习新的MAC地址，但是无法做到阻止某些设备或终端访问网络。",
+        "output": "{'Subject': '设备', 'Trigger Condition': '配置关闭MAC地址学习功能', 'Action': '不会再从该接口学习新的MAC地址，但是无法做到阻止某些设备或终端访问网络'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果hold-down定时器超时，无论LDP会话是否建立，静态路由都开始活跃。",
+        "output": "{'Subject': '静态路由', 'Trigger Condition': 'hold-down定时器超时', 'Action': '开始活跃'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "配置该命令时， _link-number2_ 必须大于 _link-number1_ 。",
+        "output": "{'Subject': '命令', 'Trigger Condition': '配置该命令', 'Action': '_link-number2_ 必须大于 _link-number1_'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "关闭智能升级Web提示功能后，Web网管首页将不再提醒智能升级的工作状态和最新的软件版本信息。",
+        "output": "{'Subject': 'Web网管首页', 'Trigger Condition': '关闭智能升级Web提示功能', 'Action': '不再提醒智能升级的工作状态和最新的软件版本信息'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "\\# 配置完成后，不同网段用户通过VXLAN网关可以互通。",
+        "output": "{'Subject': '不同网段用户', 'Trigger Condition': '配置完成', 'Action': '通过VXLAN网关可以互通'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当命令中指定 **name** _acl-name_ 时，需要通过 **acl name**或者 **acl ipv6 name**命令创建对应的ACL，否则命令配置不成功。",
+        "output": "{'Subject': '命令', 'Trigger Condition': '命令中指定 **name** _acl-name_', 'Action': '通过 **acl name**或者 **acl ipv6 name**命令创建对应的ACL，否则命令配置不成功'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "系统当前的LSP条数过多，导致动态标签使用率已达到100%。",
+        "output": "{'Subject': '动态标签使用率', 'Trigger Condition': '系统当前的LSP条数过多', 'Action': '已达到100%'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "执行该命令之前，需要先在VSI-BGPAD视图下执行 **vpls-id** _vpls-id_ 命令配置VPLS ID。",
+        "output": "{'Subject': 'VSI-BGPAD视图', 'Trigger Condition': '执行该命令之前', 'Action': '执行 **vpls-id** _vpls-id_ 命令配置VPLS ID'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果不指定OSPF进程号，该命令将显示所有OSPF进程的错误信息。",
+        "output": "{'Subject': '该命令', 'Trigger Condition': '不指定OSPF进程号', 'Action': '显示所有OSPF进程的错误信息'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当接口与VRF不再关联或ifOperStatus由Up变为其它状态时，该值减少。",
+        "output": "{'Subject': '该值', 'Trigger Condition': '接口与VRF不再关联或ifOperStatus由Up变为其它状态', 'Action': '减少'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果产生了该告警，说明用户流量超过了配置的阈值，超过阈值的部分流量被设备丢弃，用户业务可能会时断时续。",
+        "output": "{'Subject': '用户流量', 'Trigger Condition': '产生了该告警', 'Action': '超过了配置的阈值，超过阈值的部分流量被设备丢弃，用户业务可能会时断时续'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当设备的内存使用率超过门限阈值的时候会有此告警发出。",
+        "output": "{'Subject': '此告警', 'Trigger Condition': '设备的内存使用率超过门限阈值', 'Action': '发出'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当上级网络发生故障导致拓扑变化时，由于下级运行SEP协议的网络不能感知上级网络的拓扑变化，将导致流量中断。",
+        "output": "{'Subject': '下级运行SEP协议的网络', 'Trigger Condition': '上级网络发生故障导致拓扑变化', 'Action': '不能感知上级网络的拓扑变化，将导致流量中断'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当状态为active时，FMSSHUserAssignKey、FMSSHUserAuthType、FMSSHUserServiceType、FMSSHUserSftpDirectory、FMSSHUserAuthorizationCMD、FMSSHUserAssignKeyType的值允许被修改。",
+        "output": "{'Subject': 'FMSSHUserAssignKey、FMSSHUserAuthType、FMSSHUserServiceType、FMSSHUserSftpDirectory、FMSSHUserAuthorizationCMD、FMSSHUserAssignKeyType的值', 'Trigger Condition': '状态为active', 'Action': '允许被修改'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "配置OSPF时，注意需要发布PE1、P和PE2作为LSR ID的32位Loopback接口地址。",
+        "output": "{'Subject': 'PE1、P和PE2', 'Trigger Condition': '配置OSPF', 'Action': '作为LSR ID的32位Loopback接口地址'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当25GE光接口插入GE光电模块后支持配置流量控制自协商。",
+        "output": "{'Subject': '25GE光接口', 'Trigger Condition': '插入GE光电模块', 'Action': '支持配置流量控制自协商'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果一个周期内多于10条ND表项发生Hash冲突，则第11条ND表项开始的Hash冲突告警将无法上报。此时可以通过命令 **nd trap hash-conflict history** 调整每个周期内上报的告警条数。",
+        "output": "{'Subject': '第11条ND表项开始的Hash冲突告警', 'Trigger Condition': '一个周期内多于10条ND表项发生Hash冲突', 'Action': '无法上报'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "用户使能攻击检测后，当前记录的攻击设备信息太多或无用时，可以通过此命令清除攻击设备列表信息。",
+        "output": "{'Subject': '此命令', 'Trigger Condition': '用户使能攻击检测后，当前记录的攻击设备信息太多或无用', 'Action': '通过此命令清除攻击设备列表信息'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当用户需要查看指定时间段内设备或者指定接口学习到的邻居信息时，为了保证邻居信息的准确性，用户可以执行该命令清除全部或者指定接口的历史邻居信息。",
+        "output": "{'Subject': '用户', 'Trigger Condition': '查看指定时间段内设备或者指定接口学习到的邻居信息', 'Action': '执行该命令清除全部或者指定接口的历史邻居信息'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "在Switch用户侧接口GE0/0/1上配置URPF功能，并使能缺省路由匹配，使设备可以防范用户侧的源地址欺骗攻击。",
+        "output": "{'Subject': 'Switch用户侧接口GE0/0/1', 'Trigger Condition': '配置URPF功能，并使能缺省路由匹配', 'Action': '使设备可以防范用户侧的源地址欺骗攻击'}"
+    }
+]

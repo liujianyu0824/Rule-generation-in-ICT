@@ -1,0 +1,252 @@
+[
+    {
+        "instruction": "description",
+        "input": "缺省情况下，IPv6流量统计信息输出报文版本号未配置。",
+        "output": "{'Subject': 'IPv6流量统计信息', 'Trigger Condition': '缺省情况', 'Action': '输出报文版本号未配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果要撤销操作，单击\"管理\"，在弹出框内将相应接口取消选中状态，单击完成撤销操作。",
+        "output": "{'Subject': '撤销操作', 'Trigger Condition': '要撤销操作', 'Action': '单击\"管理\"，在弹出框内将相应接口取消选中状态，单击完成撤销操作'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果在一个Level-1区域中有多台Level-1-2设备与Level-2区域相连，每台Level-1-2设备都会在Level-1 LSP中设置ATT标志位，则该区域中就有到达Level-2区域和其他Level-1区域的多条出口路由。",
+        "output": "{'Subject': '区域', 'Trigger Condition': '在一个Level-1区域中有多台Level-1-2设备与Level-2区域相连，每台Level-1-2设备都会在Level-1 LSP中设置ATT标志位', 'Action': '有到达Level-2区域和其他Level-1区域的多条出口路由'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果同时创建了Super-VLAN以及对应的VLANIF接口，则不能在对应的Sub-VLAN下使能MFF功能。",
+        "output": "{'Subject': 'Super-VLAN以及对应的VLANIF接口', 'Trigger Condition': '同时创建了Super-VLAN以及对应的VLANIF接口', 'Action': '不能在对应的Sub-VLAN下使能MFF功能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "为避免单一认证模式无响应而造成的认证失败，一般会在认证方案中配置本地认证或不认证为备份认证模式。",
+        "output": "{'Subject': '单一认证模式', 'Trigger Condition': '避免单一认证模式无响应而造成的认证失败', 'Action': '在认证方案中配置本地认证或不认证为备份认证模式'}"
+    },
+    {
+        "instruction": "description",
+        "input": "为了解决该特殊场景中ARP表项无法学习和更新的问题，可以配置ARP单播探测功能。",
+        "output": "{'Subject': 'ARP单播探测功能', 'Trigger Condition': '为了解决该特殊场景中ARP表项无法学习和更新的问题', 'Action': '配置ARP单播探测功能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "当存在在线Portal认证用户时，则不能去使能全局内置Portal服务器功能，也不能够更改内置Portal服务器使用的SSL策略。",
+        "output": "{'Subject': '全局内置Portal服务器功能', 'Trigger Condition': '存在在线Portal认证用户', 'Action': '不能去使能全局内置Portal服务器功能，也不能够更改内置Portal服务器使用的SSL策略'}"
+    },
+    {
+        "instruction": "description",
+        "input": "在存在大量路由的网络中，网络故障时，为了防止缺省300秒内无法恢复所有LSP，可以调大LSP恢复定时器的值。",
+        "output": "{'Subject': 'LSP恢复定时器的值', 'Trigger Condition': '在存在大量路由的网络中，网络故障时', 'Action': '可以调大'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果需要对用户进行授权，则必须配置授权方案中的授权模式。",
+        "output": "{'Subject': '授权方案中的授权模式', 'Trigger Condition': '需要对用户进行授权', 'Action': '必须配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果OCSP服务器要求对OCSP请求消息进行签名验证，此时需要配置本命令。",
+        "output": "{'Subject': '本命令', 'Trigger Condition': 'OCSP服务器要求对OCSP请求消息进行签名验证', 'Action': '需要配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，设备的Max Age时间是2000厘秒。",
+        "output": "{'Subject': '设备的Max Age时间', 'Trigger Condition': '缺省情况', 'Action': '2000厘秒'}"
+    },
+    {
+        "instruction": "description",
+        "input": "当 **traffic-filter** 命令所关联的ACL规则中的动作为permit时，此ACL则可以同时被其他的简化流策略所关联。",
+        "output": "{'Subject': 'ACL', 'Trigger Condition': '**traffic-filter** 命令所关联的ACL规则中的动作为permit', 'Action': 'ACL则可以同时被其他的简化流策略所关联'}"
+    },
+    {
+        "instruction": "description",
+        "input": "默认情况下，接口关闭后不会自动恢复，只能由网络管理人员在接口视图下使用 **restart**命令重启接口进行恢复。",
+        "output": "{'Subject': '接口', 'Trigger Condition': '默认情况，接口关闭后不会自动恢复', 'Action': '由网络管理人员在接口视图下使用 **restart**命令重启接口进行恢复'}"
+    },
+    {
+        "instruction": "description",
+        "input": "为了防止广播风暴，可以使用该命令配置接口下允许通过的最大未知组播报文的流量。当未知组播报文流量超过配置的阈值时，系统将丢弃多余的未知组播报文，使未知组播报文流量降低到合理的范围内。",
+        "output": "{'Subject': '接口下允许通过的最大未知组播报文的流量', 'Trigger Condition': '为了防止广播风暴', 'Action': '使用该命令配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果指定的Loopback接口或VLANIF接口未创建或者接口下未配置IP地址时，使用实际出接口的IP地址作为源IP地址。",
+        "output": "{'Subject': '实际出接口的IP地址', 'Trigger Condition': '指定的Loopback接口或VLANIF接口未创建或者接口下未配置IP地址', 'Action': '使用实际出接口的IP地址作为源IP地址'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，路由管理模块通知业务模块进行链路切换的延迟时间是0秒。",
+        "output": "{'Subject': '路由管理模块', 'Trigger Condition': '缺省情况', 'Action': '通知业务模块进行链路切换的延迟时间是0秒'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如图2所示，RR会向所有Client发送路由。如果RR支持BGP按组打包功能，那么它的BGP的转发性能将得到较大的提升。",
+        "output": "{'Subject': '它的BGP的转发性能', 'Trigger Condition': 'RR支持BGP按组打包功能', 'Action': '得到较大的提升'}"
+    },
+    {
+        "instruction": "description",
+        "input": "由于NPED不能处理COMMON-FLUSH-FDB报文，因此不会清除原来的MAC地址表。",
+        "output": "{'Subject': 'NPED', 'Trigger Condition': 'NPED不能处理COMMON-FLUSH-FDB报文', 'Action': '不会清除原来的MAC地址表'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，未匹配GTSM策略的报文可以通过过滤，即配置 **pass** 参数。",
+        "output": "{'Subject': '未匹配GTSM策略的报文', 'Trigger Condition': '缺省情况', 'Action': '通过过滤，即配置 **pass** 参数'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，端口防攻击支持防范的报文类型为ARP Request、Unicast ARP Request、ARP Reply、DHCP、ICMP、IGMP、IP分片和ND报文。",
+        "output": "{'Subject': '端口防攻击', 'Trigger Condition': '缺省情况', 'Action': '支持防范的报文类型为ARP Request、Unicast ARP Request、ARP Reply、DHCP、ICMP、IGMP、IP分片和ND报文'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，地址池中所有IP地址都参与自动分配。",
+        "output": "{'Subject': '地址池中所有IP地址', 'Trigger Condition': '缺省情况', 'Action': '参与自动分配'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，设备上全局使能链路类型自协商功能。",
+        "output": "{'Subject': '设备', 'Trigger Condition': '缺省情况', 'Action': '全局使能链路类型自协商功能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，2.4GHz射频类型管理帧的发送速率为5.5Mbps。",
+        "output": "{'Subject': '2.4GHz射频类型管理帧', 'Trigger Condition': '缺省情况', 'Action': '发送速率为5.5Mbps'}"
+    },
+    {
+        "instruction": "description",
+        "input": "为了能够识别出语音终端，交换机需要使能LLDP功能或配置Voice VLAN的OUI。",
+        "output": "{'Subject': '交换机', 'Trigger Condition': '为了能够识别出语音终端', 'Action': '使能LLDP功能或配置Voice VLAN的OUI'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果用户主机侧需同时配置PIM-SM和IGMP，必须先使能PIM-SM，再使能IGMP。",
+        "output": "{'Subject': '用户主机侧', 'Trigger Condition': '用户主机侧需同时配置PIM-SM和IGMP', 'Action': '必须先使能PIM-SM，再使能IGMP'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果只需要根据源IP地址对报文进行过滤，可以配置基本ACL。",
+        "output": "{'Subject': '基本ACL', 'Trigger Condition': '只需要根据源IP地址对报文进行过滤', 'Action': '配置基本ACL'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果无线信号覆盖范围内，还存在其他网络或厂商的AP在正常工作，设备会检测到并将其识别为非法AP",
+        "output": "{'Subject': '设备', 'Trigger Condition': '无线信号覆盖范围内，还存在其他网络或厂商的AP在正常工作', 'Action': '会检测到并将其识别为非法AP'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，Web页面登录的超时时间为20分钟，可以在\"系统配置\"界面更改超时时间。",
+        "output": "{'Subject': 'Web页面登录的超时时间', 'Trigger Condition': '缺省情况', 'Action': '为20分钟，可以在\"系统配置\"界面更改超时时间'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果SSH客户端是第一次连接SSH服务器且SSH客户端没有使用命令 **ssh client first-time enable**使能首次认证，SSH客户端将拒绝访问未经认证的SSH服务器。",
+        "output": "{'Subject': 'SSH客户端', 'Trigger Condition': 'SSH客户端是第一次连接SSH服务器且SSH客户端没有使用命令 **ssh client first-time enable**使能首次认证', 'Action': '拒绝访问未经认证的SSH服务器'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，已使能Portal认证用户的静默功能。",
+        "output": "{'Subject': 'Portal认证用户的静默功能', 'Trigger Condition': '缺省情况', 'Action': '已使能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "在配置攻击溯源惩罚措施之前，请确保设备受到了非法攻击，避免因误丢弃大量正常协议报文而影响正常业务。",
+        "output": "{'Subject': '攻击溯源惩罚措施', 'Trigger Condition': '配置攻击溯源惩罚措施之前', 'Action': '确保设备受到了非法攻击，避免因误丢弃大量正常协议报文而影响正常业务'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果流策略包含的流行为配置了如下动作，则不能在VLANIF接口的出方向上应用该流策略：",
+        "output": "{'Subject': '流策略包含的流行为', 'Trigger Condition': '配置了如下动作', 'Action': '不能在VLANIF接口的出方向上应用该流策略'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果希望在不重置MSDP对等体的情况下清除MSDP对等体的统计信息，请使用 **reset msdp statistics**命令。",
+        "output": "{'Subject': '**reset msdp statistics**命令', 'Trigger Condition': '希望在不重置MSDP对等体的情况下清除MSDP对等体的统计信息', 'Action': '使用 **reset msdp statistics**命令'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，发送BGP更新报文时，AS_Path属性可以携带私有AS号。",
+        "output": "{'Subject': 'BGP更新报文', 'Trigger Condition': '缺省情况下，发送BGP更新报文', 'Action': '携带私有AS号'}"
+    },
+    {
+        "instruction": "description",
+        "input": "为了保护CPU，保证CPU对正常业务的处理和响应，交换机提供了本机防攻击功能。",
+        "output": "{'Subject': '交换机', 'Trigger Condition': '为了保护CPU，保证CPU对正常业务的处理和响应', 'Action': '提供了本机防攻击功能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，OSPFv3区域未配置安全联盟。",
+        "output": "{'Subject': 'OSPFv3区域', 'Trigger Condition': '缺省情况', 'Action': '未配置安全联盟'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果算法套定制策略已经被SSL策略引用，可以对算法套进行增加、修改和部分删除，但不能将算法套定制策略中的算法套全部删除。",
+        "output": "{'Subject': '算法套定制策略中的算法套', 'Trigger Condition': '算法套定制策略已经被SSL策略引用', 'Action': '对算法套进行增加、修改和部分删除，但不能将算法套定制策略中的算法套全部删除'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，Portal认证时设备放通DNS报文功能处于关闭状态。",
+        "output": "{'Subject': 'Portal认证时设备放通DNS报文功能', 'Trigger Condition': '缺省情况', 'Action': '处于关闭状态'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，未配置指向Portal服务器的重定向URL。",
+        "output": "{'Subject': '指向Portal服务器的重定向URL', 'Trigger Condition': '缺省情况', 'Action': '未配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，未配置客户端自动获取IP地址后下一步使用的文件服务器地址。",
+        "output": "{'Subject': '客户端自动获取IP地址后下一步使用的文件服务器地址', 'Trigger Condition': '缺省情况', 'Action': '未配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，未配置用户在接入认证各阶段的网络访问权限。",
+        "output": "{'Subject': '用户在接入认证各阶段的网络访问权限', 'Trigger Condition': '缺省情况', 'Action': '未配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，SNMP发送标准错误码，只有使能了扩展错误码功能后，才能向网管发送扩展错误码。",
+        "output": "{'Subject': 'SNMP', 'Trigger Condition': '缺省情况', 'Action': '发送标准错误码，只有使能了扩展错误码功能后，才能向网管发送扩展错误码'}"
+    },
+    {
+        "instruction": "description",
+        "input": "用户已经执行 **script-assistant python** _script-name_ 命令配置Python脚本助手，必须先删除脚本助手，才能卸载该脚本。",
+        "output": "{'Subject': '用户', 'Trigger Condition': '用户已经执行 **script-assistant python** _script-name_ 命令配置Python脚本助手', 'Action': '必须先删除脚本助手，才能卸载该脚本'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果默认情况不能满足VPN的需求，需要对VPN应用隧道策略。",
+        "output": "{'Subject': 'VPN', 'Trigger Condition': '默认情况不能满足VPN的需求', 'Action': '对VPN应用隧道策略'}"
+    },
+    {
+        "instruction": "description",
+        "input": "使用光电混合缆受电时，必须使用第二代光电混合缆配套的尾纤/跳线和光电混合光模块。",
+        "output": "{'Subject': '光电混合缆受电', 'Trigger Condition': '使用光电混合缆受电', 'Action': '必须使用第二代光电混合缆配套的尾纤/跳线和光电混合光模块'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果要将一个区域配置成Stub区域，则该区域中的所有交换机都必须配置此属性。",
+        "output": "{'Subject': '该区域中的所有交换机区域', 'Trigger Condition': '要将一个区域配置成Stub区域', 'Action': '必须配置此属性'}"
+    },
+    {
+        "instruction": "description",
+        "input": "用户在对该表进行读取操作前，必须执行ospf mib-binding process-id命令将指定OSPF进程绑定到SNMP上。",
+        "output": "{'Subject': '用户', 'Trigger Condition': '对该表进行读取操作前', 'Action': '必须执行ospf mib-binding process-id命令将指定OSPF进程绑定到SNMP上'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，没有配置主VLAN下的隔离型从VLAN。",
+        "output": "{'Subject': '主VLAN下的隔离型从VLAN', 'Trigger Condition': '缺省情况', 'Action': '没有配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "配置组播基本功能后，在SwitchD上配置SSM Mapping功能，可以实现此需求。",
+        "output": "{'Subject': 'SSM Mapping功能', 'Trigger Condition': '配置组播基本功能后，在SwitchD上配置', 'Action': '可以实现此需求'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果BFD会话的检测时间小于链路的延迟时间，则在BFD会话视图下执行 **detect-multiplier**命令、 **min-rx-interval**命令和 **min-tx-interval**命令调整BFD会话的检测时间，使之大于链路的延迟时间。",
+        "output": "{'Subject': 'BFD会话视图', 'Trigger Condition': 'BFD会话的检测时间小于链路的延迟时间', 'Action': '在BFD会话视图下执行 **detect-multiplier**命令、 **min-rx-interval**命令和 **min-tx-interval**命令调整BFD会话的检测时间，使之大于链路的延迟时间'}"
+    }
+]

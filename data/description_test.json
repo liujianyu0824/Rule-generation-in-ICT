@@ -1,0 +1,5324 @@
+[
+  {
+    "sentence": "为了使设备空配置启动时能够自动执行ZTP流程，需要开启设备的ZTP功能。",
+    "rule_list": [
+      {
+        "subject": "设备的ZTP功能",
+        "span": [
+          27,
+          35
+        ]
+      },
+      {
+        "variable_description": [
+          "为了使设备空配置启动时能够自动执行ZTP流程"
+        ],
+        "span": [
+          [
+            0,
+            22
+          ]
+        ]
+      },
+      {
+        "action": "开启设备的ZTP功能",
+        "span": [
+          25,
+          35
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，全局的LLDP功能处于去使能状态。",
+    "rule_list": [
+      {
+        "subject": "全局的LLDP功能",
+        "span": [
+          6,
+          15
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "处于去使能状态",
+        "span": [
+          15,
+          22
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未创建Portal服务器模板。",
+    "rule_list": [
+      {
+        "subject": "Portal服务器模板",
+        "span": [
+          9,
+          20
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未创建",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，DHCP Server为BOOTP Client动态分配地址的功能处于关闭状态。",
+    "rule_list": [
+      {
+        "subject": "DHCP Server为BOOTP Client动态分配地址的功能",
+        "span": [
+          6,
+          39
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "处于关闭状态",
+        "span": [
+          39,
+          45
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未使能丢弃TTL超期的IP报文。",
+    "rule_list": [
+      {
+        "subject": "丢弃TTL超期的IP报文",
+        "span": [
+          9,
+          21
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未使能",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，远端模块接口供电延迟时间为0，即不延迟。",
+    "rule_list": [
+      {
+        "subject": "远端模块",
+        "span": [
+          6,
+          10
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "接口供电延迟时间为0，即不延迟",
+        "span": [
+          10,
+          25
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，系统未配置PKI实体的IP地址。",
+    "rule_list": [
+      {
+        "subject": "系统",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未配置PKI实体的IP地址",
+        "span": [
+          8,
+          21
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，组播表项资源使用率的告警上限阈值为85%，下限阈值为75%。",
+    "rule_list": [
+      {
+        "subject": "组播表项资源使用率",
+        "span": [
+          6,
+          15
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "告警上限阈值为85%，下限阈值为75%",
+        "span": [
+          16,
+          35
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，BFD会话震荡抑制功能处于使能状态。",
+    "rule_list": [
+      {
+        "subject": "BFD会话震荡抑制功能",
+        "span": [
+          6,
+          17
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "处于使能状态",
+        "span": [
+          17,
+          23
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "只有PIM-SM使用ASM模型时，才需要使用MSDP。",
+    "rule_list": [
+      {
+        "subject": "PIM-SM",
+        "span": [
+          2,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "使用ASM模型"
+        ],
+        "span": [
+          [
+            8,
+            15
+          ]
+        ]
+      },
+      {
+        "action": "需要使用MSD",
+        "span": [
+          18,
+          26
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，本端设备收到来自EBGP对等体的路由，会向AS为200的所有EBGP邻居发布此路由。",
+    "rule_list": [
+      {
+        "subject": "本端设备",
+        "span": [
+          6,
+          10
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "收到来自EBGP对等体的路由，会向AS为200的所有EBGP邻居发布此路由",
+        "span": [
+          10,
+          47
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "在没有配置EasyDeploy功能的情况下，使用 **undo startup saved-configuration** 命令配置设备下一次启动的配置文件为空，设备将以空配置启动。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          66,
+          68
+        ]
+      },
+      {
+        "variable_description": [
+          "没有配置EasyDeploy功能的情况下，使用 **undo startup saved-configuration** 命令配置设备下一次启动的配置文件为空"
+        ],
+        "span": [
+          [
+            1,
+            80
+          ]
+        ]
+      },
+      {
+        "action": "以空配置启动",
+        "span": [
+          84,
+          90
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果用户希望使用动态域名解析功能，通过DNS服务器来获取域名对应的IP地址，则需要在设备上执行 **dns resolve** 命令开启设备的动态域名解析功能。",
+    "rule_list": [
+      {
+        "subject": "用户",
+        "span": [
+          2,
+          4
+        ]
+      },
+      {
+        "variable_description": [
+          "希望使用动态域名解析功能，通过DNS服务器来获取域名对应的IP地址"
+        ],
+        "span": [
+          [
+            4,
+            37
+          ]
+        ]
+      },
+      {
+        "action": "需要在设备上执行 **dns resolve** 命令开启设备的动态域名解析功能",
+        "span": [
+          2,
+          37
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "若设备上存在大量的Pre-authen类型的MAC地址表项信息，在使用本命令时，推荐通过指定VLAN或使用管道符的方式对显示的信息进行过滤。否则可能会因为显示信息过多而导致：",
+    "rule_list": [
+      {
+        "subject": "使用本命令",
+        "span": [
+          33,
+          38
+        ]
+      },
+      {
+        "variable_description": [
+          "设备上存在大量的Pre-authen类型的MAC地址表项信息"
+        ],
+        "span": [
+          [
+            1,
+            31
+          ]
+        ]
+      },
+      {
+        "action": "推荐通过指定VLAN或使用管道符的方式对显示的信息进行过滤",
+        "span": [
+          40,
+          69
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，SRv6报文的解封装功能处于未使能状态。",
+    "rule_list": [
+      {
+        "subject": "SRv6报文的解封装功能",
+        "span": [
+          6,
+          18
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "处于未使能状态",
+        "span": [
+          18,
+          25
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，MSTP进程所有端口均被配置为非边缘端口。",
+    "rule_list": [
+      {
+        "subject": "MSTP进程所有端口",
+        "span": [
+          6,
+          16
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "被配置为非边缘端口",
+        "span": [
+          17,
+          26
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果只需要访问某几个用户，而对其他用户没有访问需求，这时可以使用 **route-policy** _route-policy-name_ 参数对发布的IPv4 ARP Vlink直连路由进行过滤，从而控制路由表的规模，并且实现对数据流量的精确控制。",
+    "rule_list": [
+      {
+        "subject": "用户",
+        "span": [
+          10,
+          12
+        ]
+      },
+      {
+        "variable_description": [
+          "只需要访问某几个用户，而对其他用户没有访问需求"
+        ],
+        "span": [
+          [
+            2,
+            25
+          ]
+        ]
+      },
+      {
+        "action": "使用 **route-policy** _route-policy-name_ 参数对发布的IPv4 ARP Vlink直连路由进行过滤",
+        "span": [
+          2,
+          25
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果在主机侧共享网段上有多个组播交换机，由于不同版本的MLD协议报文结构不同，为了保证MLD的正常运行，必须在所有组播交换机与组成员相连的接口上配置相同版本的MLD。",
+    "rule_list": [
+      {
+        "subject": "所有组播交换机与组成员相连的接口",
+        "span": [
+          55,
+          71
+        ]
+      },
+      {
+        "variable_description": [
+          "在主机侧共享网段上有多个组播交换机，由于不同版本的MLD协议报文结构不同，为了保证MLD的正常运行"
+        ],
+        "span": [
+          [
+            2,
+            51
+          ]
+        ]
+      },
+      {
+        "action": "配置相同版本的MLD",
+        "span": [
+          72,
+          82
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当用户需要从本端设备远程登录到远端设备上进行远端管理时，可在远端设备上的管理VLAN对应的VLANIF接口上部署QinQ Stacking功能实现。",
+    "rule_list": [
+      {
+        "subject": "用户",
+        "span": [
+          1,
+          3
+        ]
+      },
+      {
+        "variable_description": [
+          "需要从本端设备远程登录到远端设备上进行远端管理"
+        ],
+        "span": [
+          [
+            3,
+            26
+          ]
+        ]
+      },
+      {
+        "action": "在远端设备上的管理VLAN对应的VLANIF接口上部署QinQ Stacking功能实现",
+        "span": [
+          29,
+          73
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，交换机向NetStream服务器发送NetStream流输出模板的时间间隔为30分钟。",
+    "rule_list": [
+      {
+        "subject": "交换机",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "向NetStream服务器发送NetStream流输出模板的时间间隔为30分钟",
+        "span": [
+          9,
+          48
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果网络中有多条冗余链路，通过配置最大等价路由条数可以实现负载分担，从而充分的利用网络资源，避免造成有些链路空闲而有些链路繁忙、延迟过大的现象。",
+    "rule_list": [
+      {
+        "subject": "网络",
+        "span": [
+          2,
+          4
+        ]
+      },
+      {
+        "variable_description": [
+          "网络中有多条冗余链路"
+        ],
+        "span": [
+          [
+            2,
+            12
+          ]
+        ]
+      },
+      {
+        "action": "配置最大等价路由条数可以实现负载分担，从而充分的利用网络资源，避免造成有些链路空闲而有些链路繁忙、延迟过大的现象",
+        "span": [
+          15,
+          71
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，触发阈值告警的CR-LSP总数的使用率上限为80%",
+    "rule_list": [
+      {
+        "subject": "触发阈值告警的CR-LSP总数的使用率",
+        "span": [
+          6,
+          25
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "上限为80%",
+        "span": [
+          25,
+          31
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未配置单臂回声功能的BFD会话。",
+    "rule_list": [
+      {
+        "subject": "单臂回声功能的BFD会话",
+        "span": [
+          9,
+          21
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未配置",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，Portal认证时所使用的协议为Portal协议。",
+    "rule_list": [
+      {
+        "subject": "Portal认证",
+        "span": [
+          6,
+          14
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "所使用的协议为Portal协议",
+        "span": [
+          15,
+          30
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果配置MD5认证，则必须配置MD5的类型。",
+    "rule_list": [
+      {
+        "subject": "MD5的类型",
+        "span": [
+          15,
+          21
+        ]
+      },
+      {
+        "variable_description": [
+          "配置MD5认证"
+        ],
+        "span": [
+          [
+            2,
+            9
+          ]
+        ]
+      },
+      {
+        "action": "必须配置MD5的类型",
+        "span": [
+          11,
+          21
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果用户希望在Trap缓冲区内看到设备产生的Trap信息时，可以配置Trap信息输出到Trap缓冲区。",
+    "rule_list": [
+      {
+        "subject": "用户",
+        "span": [
+          2,
+          4
+        ]
+      },
+      {
+        "variable_description": [
+          "希望在Trap缓冲区内看到设备产生的Trap信息"
+        ],
+        "span": [
+          [
+            4,
+            28
+          ]
+        ]
+      },
+      {
+        "action": "配置Trap信息输出到Trap缓冲区",
+        "span": [
+          32,
+          50
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，BGP向EBGP对等体通告路由时，将下一跳属性设为自身的接口地址。",
+    "rule_list": [
+      {
+        "subject": "BGP",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "向EBGP对等体通告路由时，将下一跳属性设为自身的接口地址",
+        "span": [
+          9,
+          38
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果指定的 **cir** 较大导致缺省的 **cbs** 大于4294967295，则交换机使用最大值4294967295。",
+    "rule_list": [
+      {
+        "subject": "交换机",
+        "span": [
+          44,
+          47
+        ]
+      },
+      {
+        "variable_description": [
+          "指定的 **cir** 较大导致缺省的 **cbs** 大于429496729"
+        ],
+        "span": [
+          [
+            2,
+            41
+          ]
+        ]
+      },
+      {
+        "action": "使用最大值4294967295",
+        "span": [
+          47,
+          62
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果其中某个接口的指示灯闪烁表示该接口的接口号为本设备的堆叠ID。",
+    "rule_list": [
+      {
+        "subject": "该接口的接口号",
+        "span": [
+          16,
+          23
+        ]
+      },
+      {
+        "variable_description": [
+          "某个接口的指示灯闪烁"
+        ],
+        "span": [
+          [
+            4,
+            14
+          ]
+        ]
+      },
+      {
+        "action": "表示该接口的接口号为本设备的堆叠ID",
+        "span": [
+          14,
+          32
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，ICMP流量抑制功能未使能。",
+    "rule_list": [
+      {
+        "subject": "ICMP流量抑制功能",
+        "span": [
+          6,
+          16
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未使能",
+        "span": [
+          16,
+          19
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，交换设备的Forward Delay时间是1500厘秒。",
+    "rule_list": [
+      {
+        "subject": "交换设备的Forward Delay时间",
+        "span": [
+          6,
+          26
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "1500厘秒",
+        "span": [
+          27,
+          33
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，当License项的资源使用率超过其设置的阈值时，设备会上报License项资源不足告警。用户可以通过以下方式关闭该功能。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          31,
+          33
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况",
+          "License项的资源使用率超过其设置的阈值"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ],
+          [
+            7,
+            29
+          ]
+        ]
+      },
+      {
+        "action": "上报License项资源不足告警",
+        "span": [
+          34,
+          50
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，Combo接口的工作模式为auto，即自动切换光口模式或电口模式。",
+    "rule_list": [
+      {
+        "subject": "Combo接口的工作模式",
+        "span": [
+          6,
+          18
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "为auto，即自动切换光口模式或电口模式",
+        "span": [
+          18,
+          38
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当有802.1X用户在线时，则不允许更改接口接入控制方式。",
+    "rule_list": [
+      {
+        "subject": "接口",
+        "span": [
+          20,
+          22
+        ]
+      },
+      {
+        "variable_description": [
+          "有802.1X用户在线"
+        ],
+        "span": [
+          [
+            1,
+            12
+          ]
+        ]
+      },
+      {
+        "action": "不允许更改接口接入控制方式",
+        "span": [
+          15,
+          28
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "在配置Jitter报文的版本号为2并配置单向丢包统计后，在测试结果中将可以看到，从源端到目的端、从目的端到源端和未知方向的丢包情况。为网络管理员定位网络故障、检测恶意对网络的攻击提供依据。",
+    "rule_list": [
+      {
+        "subject": "测试结果",
+        "span": [
+          29,
+          33
+        ]
+      },
+      {
+        "variable_description": [
+          "配置Jitter报文的版本号为2并配置单向丢包统计"
+        ],
+        "span": [
+          [
+            1,
+            26
+          ]
+        ]
+      },
+      {
+        "action": "在测试结果中将可以看到，从源端到目的端、从目的端到源端和未知方向的丢包情况",
+        "span": [
+          28,
+          65
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，没有为中间转发节点配置静态LSP。",
+    "rule_list": [
+      {
+        "subject": "中间转发节点",
+        "span": [
+          9,
+          15
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "没有为中间转发节点配置静态LSP",
+        "span": [
+          6,
+          22
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，接口的MAC VLAN功能未使能。",
+    "rule_list": [
+      {
+        "subject": "接口的MAC VLAN功能",
+        "span": [
+          6,
+          19
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未使能",
+        "span": [
+          19,
+          22
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，Kompella方式VLL的告警开关处于关闭状态。",
+    "rule_list": [
+      {
+        "subject": "Kompella方式VLL的告警开关",
+        "span": [
+          6,
+          24
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "处于关闭状态",
+        "span": [
+          24,
+          30
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果RP到源方向的SPT切换尚未完成，RP不会发送注册停止报文。可能原因是RP到源端DR之间所有设备的接口上配置了不一致的PIM协议。",
+    "rule_list": [
+      {
+        "subject": "RP",
+        "span": [
+          2,
+          4
+        ]
+      },
+      {
+        "variable_description": [
+          "RP到源方向的SPT切换尚未完成"
+        ],
+        "span": [
+          [
+            2,
+            18
+          ]
+        ]
+      },
+      {
+        "action": "不会发送注册停止报文",
+        "span": [
+          21,
+          31
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，DHCPv6报文中没有插入Option79选项。",
+    "rule_list": [
+      {
+        "subject": "DHCPv6报文",
+        "span": [
+          6,
+          14
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "没有插入Option79选项",
+        "span": [
+          15,
+          29
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "必须先执行 **defence engine enable**命令开启IAE引擎才可以执行该命令。",
+    "rule_list": [
+      {
+        "subject": "命令",
+        "span": [
+          31,
+          33
+        ]
+      },
+      {
+        "variable_description": [
+          "执行 **defence engine enable**命令开启IAE引擎"
+        ],
+        "span": [
+          [
+            3,
+            40
+          ]
+        ]
+      },
+      {
+        "action": "执行该命令",
+        "span": [
+          43,
+          48
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "使用区域验证时，一个区域中所有的交换机在该区域下的验证模式和口令必须一致。例如，在Area0内所有交换机上配置验证模式为简单验证，口令为abc。",
+    "rule_list": [
+      {
+        "subject": "一个区域中所有的交换机",
+        "span": [
+          8,
+          19
+        ]
+      },
+      {
+        "variable_description": [
+          "使用区域验证"
+        ],
+        "span": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "action": "在该区域下的验证模式和口令必须一致",
+        "span": [
+          19,
+          36
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，设备全局未使能DHCP Snooping功能。",
+    "rule_list": [
+      {
+        "subject": "设备全局",
+        "span": [
+          6,
+          10
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "全局未使能DHCP Snooping功能",
+        "span": [
+          8,
+          28
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当备份CR-LSP的状态为Up，且被保护链路或节点出现故障时，则流量先切换到Bypass CR-LSP后，立即切换到备份CR-LSP上，同时尝试恢复主CR-LSP。",
+    "rule_list": [
+      {
+        "subject": "流量",
+        "span": [
+          32,
+          34
+        ]
+      },
+      {
+        "variable_description": [
+          "备份CR-LSP的状态为Up，且被保护链路或节点出现故障"
+        ],
+        "span": [
+          [
+            1,
+            29
+          ]
+        ]
+      },
+      {
+        "action": "先切换到Bypass CR-LSP后，立即切换到备份CR-LSP上，同时尝试恢复主CR-LSP",
+        "span": [
+          34,
+          81
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果上行接口同时在使能IPSG功能的VLAN内，则需要将上行口配置成信任接口，否则回程报文会因匹配不到绑定表而被丢弃，导致业务不通。",
+    "rule_list": [
+      {
+        "subject": "上行口",
+        "span": [
+          28,
+          31
+        ]
+      },
+      {
+        "variable_description": [
+          "上行接口同时在使能IPSG功能的VLAN内"
+        ],
+        "span": [
+          [
+            2,
+            23
+          ]
+        ]
+      },
+      {
+        "action": "需要将上行口配置成信任接口，否则回程报文会因匹配不到绑定表而被丢弃，导致业务不通",
+        "span": [
+          25,
+          65
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "动态路由器端口老化时间不能配的太短，否则容易导致路由器端口频繁老化，影响系统性能。",
+    "rule_list": [
+      {
+        "subject": "路由器端口",
+        "span": [
+          2,
+          7
+        ]
+      },
+      {
+        "variable_description": [
+          "动态路由器端口老化时间不能配的太短"
+        ],
+        "span": [
+          [
+            0,
+            17
+          ]
+        ]
+      },
+      {
+        "action": "否则容易导致路由器端口频繁老化，影响系统性能",
+        "span": [
+          18,
+          40
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "若系统中已经配置了VAP模板，可以使用已经存在的VAP模板，也可以按照上述步骤新建VAP模板。",
+    "rule_list": [
+      {
+        "subject": "系统",
+        "span": [
+          1,
+          3
+        ]
+      },
+      {
+        "variable_description": [
+          "系统中已经配置了VAP模板"
+        ],
+        "span": [
+          [
+            1,
+            14
+          ]
+        ]
+      },
+      {
+        "action": "可以使用已经存在的VAP模板，也可以按照上述步骤新建VAP模板",
+        "span": [
+          15,
+          46
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "若网络中使用动态RP，当网络中的DR收到Generation ID改变的Hello报文后，会向发生主备倒换的堆叠系统单播发送Bootstrap报文，堆叠系统从该自举报文中学习并恢复RP信息。",
+    "rule_list": [
+      {
+        "subject": "堆叠系统",
+        "span": [
+          54,
+          58
+        ]
+      },
+      {
+        "variable_description": [
+          "若网络中使用动态RP，当网络中的DR收到Generation ID改变的Hello报文"
+        ],
+        "span": [
+          [
+            0,
+            43
+          ]
+        ]
+      },
+      {
+        "action": "向发生主备倒换的堆叠系统单播发送Bootstrap报文，堆叠系统从该自举报文中学习并恢复RP信息",
+        "span": [
+          46,
+          94
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果已经使能了check-tunnel-reachable功能，现在需要去使能check-tunnel-reachable功能，可通过重新配置 **peer** { _group-name_ | _ipv4-address_ } **label-route-capability** 命令取代之前的配置来实现。",
+    "rule_list": [
+      {
+        "subject": "check-tunnel-reachable功能",
+        "span": [
+          7,
+          31
+        ]
+      },
+      {
+        "variable_description": [
+          "已经使能了check-tunnel-reachable功能，现在需要去使能check-tunnel-reachable功能"
+        ],
+        "span": [
+          [
+            2,
+            63
+          ]
+        ]
+      },
+      {
+        "action": "重新配置 **peer** { _group-name_ | _ipv4-address_ } **label-route-capability** 命令取代之前的配置来实现",
+        "span": [
+          67,
+          154
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当需要根据DiffServ域中定义的映射关系，对流向下游设备的报文进行PHB行为到优先级之间的映射操作时，可以通过本命令将DiffServ域应用到报文的出接口，系统会根据DiffServ域中的映射关系将报文的PHB行为映射为优先级。",
+    "rule_list": [
+      {
+        "subject": "本命令",
+        "span": [
+          57,
+          60
+        ]
+      },
+      {
+        "variable_description": [
+          "需要根据DiffServ域中定义的映射关系，对流向下游设备的报文进行PHB行为到优先级之间的映射操作"
+        ],
+        "span": [
+          [
+            1,
+            51
+          ]
+        ]
+      },
+      {
+        "action": "通过本命令将DiffServ域应用到报文的出接口，系统会根据DiffServ域中的映射关系将报文的PHB行为映射为优先级",
+        "span": [
+          55,
+          115
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果由于链路闪断导致的Smart link倒换，会影响报文转发和系统性能，可以通过配置Smart Link倒换的延时解决此问题。",
+    "rule_list": [
+      {
+        "subject": "Smart Link倒换",
+        "span": [
+          43,
+          55
+        ]
+      },
+      {
+        "variable_description": [
+          "由于链路闪断导致的Smart link倒换"
+        ],
+        "span": [
+          [
+            2,
+            23
+          ]
+        ]
+      },
+      {
+        "action": "会影响报文转发和系统性能，可以通过配置Smart Link倒换的延时解决此问题。",
+        "span": [
+          24,
+          64
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，IPv6流量统计信息输出报文版本号未配置。",
+    "rule_list": [
+      {
+        "subject": "IPv6流量统计信息",
+        "span": [
+          6,
+          16
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "输出报文版本号未配置",
+        "span": [
+          16,
+          26
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果要撤销操作，单击\"管理\"，在弹出框内将相应接口取消选中状态，单击完成撤销操作。",
+    "rule_list": [
+      {
+        "subject": "撤销操作",
+        "span": [
+          3,
+          7
+        ]
+      },
+      {
+        "variable_description": [
+          "要撤销操作"
+        ],
+        "span": [
+          [
+            2,
+            7
+          ]
+        ]
+      },
+      {
+        "action": "单击\"管理\"，在弹出框内将相应接口取消选中状态，单击完成撤销操作",
+        "span": [
+          8,
+          40
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果在一个Level-1区域中有多台Level-1-2设备与Level-2区域相连，每台Level-1-2设备都会在Level-1 LSP中设置ATT标志位，则该区域中就有到达Level-2区域和其他Level-1区域的多条出口路由。",
+    "rule_list": [
+      {
+        "subject": "区域",
+        "span": [
+          12,
+          14
+        ]
+      },
+      {
+        "variable_description": [
+          "在一个Level-1区域中有多台Level-1-2设备与Level-2区域相连，每台Level-1-2设备都会在Level-1 LSP中设置ATT标志位"
+        ],
+        "span": [
+          [
+            2,
+            78
+          ]
+        ]
+      },
+      {
+        "action": "有到达Level-2区域和其他Level-1区域的多条出口路由",
+        "span": [
+          85,
+          116
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果同时创建了Super-VLAN以及对应的VLANIF接口，则不能在对应的Sub-VLAN下使能MFF功能。",
+    "rule_list": [
+      {
+        "subject": "Super-VLAN以及对应的VLANIF接口",
+        "span": [
+          7,
+          30
+        ]
+      },
+      {
+        "variable_description": [
+          "同时创建了Super-VLAN以及对应的VLANIF接口"
+        ],
+        "span": [
+          [
+            2,
+            30
+          ]
+        ]
+      },
+      {
+        "action": "不能在对应的Sub-VLAN下使能MFF功能",
+        "span": [
+          32,
+          54
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "为避免单一认证模式无响应而造成的认证失败，一般会在认证方案中配置本地认证或不认证为备份认证模式。",
+    "rule_list": [
+      {
+        "subject": "单一认证模式",
+        "span": [
+          3,
+          9
+        ]
+      },
+      {
+        "variable_description": [
+          "避免单一认证模式无响应而造成的认证失败"
+        ],
+        "span": [
+          [
+            1,
+            20
+          ]
+        ]
+      },
+      {
+        "action": "在认证方案中配置本地认证或不认证为备份认证模式",
+        "span": [
+          24,
+          47
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "为了解决该特殊场景中ARP表项无法学习和更新的问题，可以配置ARP单播探测功能。",
+    "rule_list": [
+      {
+        "subject": "ARP单播探测功能",
+        "span": [
+          30,
+          39
+        ]
+      },
+      {
+        "variable_description": [
+          "为了解决该特殊场景中ARP表项无法学习和更新的问题"
+        ],
+        "span": [
+          [
+            0,
+            25
+          ]
+        ]
+      },
+      {
+        "action": "配置ARP单播探测功能",
+        "span": [
+          28,
+          39
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当存在在线Portal认证用户时，则不能去使能全局内置Portal服务器功能，也不能够更改内置Portal服务器使用的SSL策略。",
+    "rule_list": [
+      {
+        "subject": "全局内置Portal服务器功能",
+        "span": [
+          23,
+          38
+        ]
+      },
+      {
+        "variable_description": [
+          "存在在线Portal认证用户"
+        ],
+        "span": [
+          [
+            1,
+            15
+          ]
+        ]
+      },
+      {
+        "action": "不能去使能全局内置Portal服务器功能，也不能够更改内置Portal服务器使用的SSL策略",
+        "span": [
+          18,
+          64
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "在存在大量路由的网络中，网络故障时，为了防止缺省300秒内无法恢复所有LSP，可以调大LSP恢复定时器的值。",
+    "rule_list": [
+      {
+        "subject": "LSP恢复定时器的值",
+        "span": [
+          43,
+          53
+        ]
+      },
+      {
+        "variable_description": [
+          "在存在大量路由的网络中，网络故障时"
+        ],
+        "span": [
+          [
+            0,
+            17
+          ]
+        ]
+      },
+      {
+        "action": "可以调大",
+        "span": [
+          39,
+          43
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果需要对用户进行授权，则必须配置授权方案中的授权模式。",
+    "rule_list": [
+      {
+        "subject": "授权方案中的授权模式",
+        "span": [
+          17,
+          27
+        ]
+      },
+      {
+        "variable_description": [
+          "需要对用户进行授权"
+        ],
+        "span": [
+          [
+            2,
+            11
+          ]
+        ]
+      },
+      {
+        "action": "必须配置",
+        "span": [
+          13,
+          17
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果OCSP服务器要求对OCSP请求消息进行签名验证，此时需要配置本命令。",
+    "rule_list": [
+      {
+        "subject": "本命令",
+        "span": [
+          33,
+          36
+        ]
+      },
+      {
+        "variable_description": [
+          "OCSP服务器要求对OCSP请求消息进行签名验证"
+        ],
+        "span": [
+          [
+            2,
+            26
+          ]
+        ]
+      },
+      {
+        "action": "需要配置",
+        "span": [
+          29,
+          33
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，设备的Max Age时间是2000厘秒。",
+    "rule_list": [
+      {
+        "subject": "设备的Max Age时间",
+        "span": [
+          6,
+          18
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "2000厘秒",
+        "span": [
+          19,
+          25
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当 **traffic-filter** 命令所关联的ACL规则中的动作为permit时，此ACL则可以同时被其他的简化流策略所关联。",
+    "rule_list": [
+      {
+        "subject": "ACL",
+        "span": [
+          27,
+          30
+        ]
+      },
+      {
+        "variable_description": [
+          "**traffic-filter** 命令所关联的ACL规则中的动作为permit"
+        ],
+        "span": [
+          [
+            2,
+            43
+          ]
+        ]
+      },
+      {
+        "action": "ACL则可以同时被其他的简化流策略所关联",
+        "span": [
+          46,
+          66
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "根据设备名+端口名指定阻塞端口，如果用户在后续的操作中修改了对应的设备名或端口名，那么将导致抢占无法生效。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          2,
+          4
+        ]
+      },
+      {
+        "variable_description": [
+          "根据设备名+端口名指定阻塞端口",
+          "用户在后续的操作中修改了对应的设备名或端口名"
+        ],
+        "span": [
+          [
+            0,
+            15
+          ],
+          [
+            18,
+            40
+          ]
+        ]
+      },
+      {
+        "action": "抢占无法生效",
+        "span": [
+          46,
+          52
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "默认情况下，接口关闭后不会自动恢复，只能由网络管理人员在接口视图下使用 **restart**命令重启接口进行恢复。",
+    "rule_list": [
+      {
+        "subject": "接口",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "默认情况，接口关闭后不会自动恢复"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "由网络管理人员在接口视图下使用 **restart**命令重启接口进行恢复",
+        "span": [
+          6,
+          57
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "为了防止广播风暴，可以使用该命令配置接口下允许通过的最大未知组播报文的流量。当未知组播报文流量超过配置的阈值时，系统将丢弃多余的未知组播报文，使未知组播报文流量降低到合理的范围内。",
+    "rule_list": [
+      {
+        "subject": "接口下允许通过的最大未知组播报文的流量",
+        "span": [
+          18,
+          37
+        ]
+      },
+      {
+        "variable_description": [
+          "为了防止广播风暴"
+        ],
+        "span": [
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "action": "使用该命令配置",
+        "span": [
+          11,
+          18
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果指定的Loopback接口或VLANIF接口未创建或者接口下未配置IP地址时，使用实际出接口的IP地址作为源IP地址。",
+    "rule_list": [
+      {
+        "subject": "实际出接口的IP地址",
+        "span": [
+          43,
+          53
+        ]
+      },
+      {
+        "variable_description": [
+          "指定的Loopback接口或VLANIF接口未创建或者接口下未配置IP地址"
+        ],
+        "span": [
+          [
+            2,
+            39
+          ]
+        ]
+      },
+      {
+        "action": "使用实际出接口的IP地址作为源IP地址",
+        "span": [
+          41,
+          60
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，路由管理模块通知业务模块进行链路切换的延迟时间是0秒。",
+    "rule_list": [
+      {
+        "subject": "路由管理模块",
+        "span": [
+          6,
+          12
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "通知业务模块进行链路切换的延迟时间是0秒",
+        "span": [
+          12,
+          32
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如图2所示，RR会向所有Client发送路由。如果RR支持BGP按组打包功能，那么它的BGP的转发性能将得到较大的提升。",
+    "rule_list": [
+      {
+        "subject": "它的BGP的转发性能",
+        "span": [
+          41,
+          51
+        ]
+      },
+      {
+        "variable_description": [
+          "RR支持BGP按组打包功能"
+        ],
+        "span": [
+          [
+            25,
+            38
+          ]
+        ]
+      },
+      {
+        "action": "得到较大的提升",
+        "span": [
+          52,
+          59
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "由于NPED不能处理COMMON-FLUSH-FDB报文，因此不会清除原来的MAC地址表。",
+    "rule_list": [
+      {
+        "subject": "NPED",
+        "span": [
+          2,
+          6
+        ]
+      },
+      {
+        "variable_description": [
+          "NPED不能处理COMMON-FLUSH-FDB报文"
+        ],
+        "span": [
+          [
+            2,
+            28
+          ]
+        ]
+      },
+      {
+        "action": "不会清除原来的MAC地址表",
+        "span": [
+          31,
+          44
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未匹配GTSM策略的报文可以通过过滤，即配置 **pass** 参数。",
+    "rule_list": [
+      {
+        "subject": "未匹配GTSM策略的报文",
+        "span": [
+          6,
+          18
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "通过过滤，即配置 **pass** 参数",
+        "span": [
+          6,
+          40
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，端口防攻击支持防范的报文类型为ARP Request、Unicast ARP Request、ARP Reply、DHCP、ICMP、IGMP、IP分片和ND报文。",
+    "rule_list": [
+      {
+        "subject": "端口防攻击",
+        "span": [
+          6,
+          11
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "支持防范的报文类型为ARP Request、Unicast ARP Request、ARP Reply、DHCP、ICMP、IGMP、IP分片和ND报文",
+        "span": [
+          11,
+          87
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，地址池中所有IP地址都参与自动分配。",
+    "rule_list": [
+      {
+        "subject": "地址池中所有IP地址",
+        "span": [
+          6,
+          16
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "参与自动分配",
+        "span": [
+          17,
+          23
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，设备上全局使能链路类型自协商功能。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "全局使能链路类型自协商功能",
+        "span": [
+          9,
+          22
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当补丁加载成功后，如果发现补丁有缺陷，可执行本命令删除AS上的补丁，以防止因补丁错误而导致系统连续运行故障。",
+    "rule_list": [
+      {
+        "subject": "本命令",
+        "span": [
+          22,
+          25
+        ]
+      },
+      {
+        "variable_description": [
+          "补丁加载成功",
+          "发现补丁有缺陷"
+        ],
+        "span": [
+          [
+            1,
+            7
+          ],
+          [
+            11,
+            18
+          ]
+        ]
+      },
+      {
+        "action": "执行本命令删除AS上的补丁，以防止因补丁错误而导致系统连续运行故障",
+        "span": [
+          20,
+          53
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，2.4GHz射频类型管理帧的发送速率为5.5Mbps。",
+    "rule_list": [
+      {
+        "subject": "2.4GHz射频类型管理帧",
+        "span": [
+          6,
+          19
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "发送速率为5.5Mbps",
+        "span": [
+          20,
+          32
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "为了能够识别出语音终端，交换机需要使能LLDP功能或配置Voice VLAN的OUI。",
+    "rule_list": [
+      {
+        "subject": "交换机",
+        "span": [
+          12,
+          15
+        ]
+      },
+      {
+        "variable_description": [
+          "为了能够识别出语音终端"
+        ],
+        "span": [
+          [
+            0,
+            11
+          ]
+        ]
+      },
+      {
+        "action": "使能LLDP功能或配置Voice VLAN的OUI",
+        "span": [
+          17,
+          42
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果用户主机侧需同时配置PIM-SM和IGMP，必须先使能PIM-SM，再使能IGMP。",
+    "rule_list": [
+      {
+        "subject": "用户主机侧",
+        "span": [
+          2,
+          7
+        ]
+      },
+      {
+        "variable_description": [
+          "用户主机侧需同时配置PIM-SM和IGMP"
+        ],
+        "span": [
+          [
+            2,
+            23
+          ]
+        ]
+      },
+      {
+        "action": "必须先使能PIM-SM，再使能IGMP",
+        "span": [
+          24,
+          43
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果只需要根据源IP地址对报文进行过滤，可以配置基本ACL。",
+    "rule_list": [
+      {
+        "subject": "基本ACL",
+        "span": [
+          24,
+          29
+        ]
+      },
+      {
+        "variable_description": [
+          "只需要根据源IP地址对报文进行过滤"
+        ],
+        "span": [
+          [
+            2,
+            19
+          ]
+        ]
+      },
+      {
+        "action": "配置基本ACL",
+        "span": [
+          22,
+          29
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未配置静态用户进行认证时的用户名为MAC地址。",
+    "rule_list": [
+      {
+        "subject": "用户名",
+        "span": [
+          19,
+          22
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况",
+          "未配置静态用户进行认证"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            17
+          ]
+        ]
+      },
+      {
+        "action": "为MAC地址",
+        "span": [
+          22,
+          28
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果PE3和PE4的CFM配置正确，此时在PE3或者PE4上执行 **display cfm remote-mep** 命令，可看到\"CFM Status\"字段的值为状态为Up。",
+    "rule_list": [
+      {
+        "subject": "**display cfm remote-mep** 命令",
+        "span": [
+          33,
+          62
+        ]
+      },
+      {
+        "variable_description": [
+          "PE3和PE4的CFM配置正确",
+          "在PE3或者PE4上执行 **display cfm remote-mep** 命令"
+        ],
+        "span": [
+          [
+            2,
+            17
+          ],
+          [
+            20,
+            62
+          ]
+        ]
+      },
+      {
+        "action": "可看到\"CFM Status\"字段的值为状态为Up",
+        "span": [
+          63,
+          88
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果配置了攻击溯源的惩罚措施为丢弃，设备受到攻击时会丢弃攻击报文，可以使用 **display auto-defend attack-source**命令查看相应的溯源信息。",
+    "rule_list": [
+      {
+        "subject": "**display auto-defend attack-source**命令",
+        "span": [
+          38,
+          77
+        ]
+      },
+      {
+        "variable_description": [
+          "配置了攻击溯源的惩罚措施为丢弃",
+          "设备受到攻击时会丢弃攻击报文"
+        ],
+        "span": [
+          [
+            2,
+            17
+          ],
+          [
+            18,
+            32
+          ]
+        ]
+      },
+      {
+        "action": "使用 **display auto-defend attack-source**命令查看相应的溯源信息",
+        "span": [
+          35,
+          86
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "启动了环路保护功能后，如果根端口或Alternate端口长时间收不到来自上游的BPDU报文时，则向网管发出通知信息。",
+    "rule_list": [
+      {
+        "subject": "环路保护功能",
+        "span": [
+          3,
+          9
+        ]
+      },
+      {
+        "variable_description": [
+          "启动了环路保护功能",
+          "根端口或Alternate端口长时间收不到来自上游的BPDU报文"
+        ],
+        "span": [
+          [
+            0,
+            9
+          ],
+          [
+            13,
+            45
+          ]
+        ]
+      },
+      {
+        "action": "向网管发出通知信息",
+        "span": [
+          48,
+          57
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果无线信号覆盖范围内，还存在其他网络或厂商的AP在正常工作，设备会检测到并将其识别为非法AP",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          31,
+          33
+        ]
+      },
+      {
+        "variable_description": [
+          "无线信号覆盖范围内，还存在其他网络或厂商的AP在正常工作"
+        ],
+        "span": [
+          [
+            2,
+            30
+          ]
+        ]
+      },
+      {
+        "action": "会检测到并将其识别为非法AP",
+        "span": [
+          33,
+          47
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，Web页面登录的超时时间为20分钟，可以在\"系统配置\"界面更改超时时间。",
+    "rule_list": [
+      {
+        "subject": "Web页面登录的超时时间",
+        "span": [
+          6,
+          18
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "为20分钟，可以在\"系统配置\"界面更改超时时间",
+        "span": [
+          18,
+          41
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当配置了全局BFD特性，且邻居状态为Up时，RIP为该进程下所有满足上述条件的接口使用缺省的BFD参数值建立BFD会话。",
+    "rule_list": [
+      {
+        "subject": "RIP",
+        "span": [
+          22,
+          25
+        ]
+      },
+      {
+        "variable_description": [
+          "配置了全局BFD特性",
+          "邻居状态为Up"
+        ],
+        "span": [
+          [
+            1,
+            11
+          ],
+          [
+            13,
+            20
+          ]
+        ]
+      },
+      {
+        "action": "为该进程下所有满足上述条件的接口使用缺省的BFD参数值建立BFD会话",
+        "span": [
+          25,
+          59
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果SSH客户端是第一次连接SSH服务器且SSH客户端没有使用命令 **ssh client first-time enable**使能首次认证，SSH客户端将拒绝访问未经认证的SSH服务器。",
+    "rule_list": [
+      {
+        "subject": "SSH客户端",
+        "span": [
+          2,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "SSH客户端是第一次连接SSH服务器且SSH客户端没有使用命令 **ssh client first-time enable**使能首次认证"
+        ],
+        "span": [
+          [
+            2,
+            72
+          ]
+        ]
+      },
+      {
+        "action": "拒绝访问未经认证的SSH服务器",
+        "span": [
+          80,
+          95
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，已使能Portal认证用户的静默功能。",
+    "rule_list": [
+      {
+        "subject": "Portal认证用户的静默功能",
+        "span": [
+          9,
+          24
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "已使能",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "在配置攻击溯源惩罚措施之前，请确保设备受到了非法攻击，避免因误丢弃大量正常协议报文而影响正常业务。",
+    "rule_list": [
+      {
+        "subject": "攻击溯源惩罚措施",
+        "span": [
+          3,
+          11
+        ]
+      },
+      {
+        "variable_description": [
+          "配置攻击溯源惩罚措施之前"
+        ],
+        "span": [
+          [
+            1,
+            13
+          ]
+        ]
+      },
+      {
+        "action": "确保设备受到了非法攻击，避免因误丢弃大量正常协议报文而影响正常业务",
+        "span": [
+          15,
+          48
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果系统不满足主备倒换条件，例如CPU使用率高，自动倒换失败时，用户可以手动进行主用主控板和备用主控板的倒换。",
+    "rule_list": [
+      {
+        "subject": "用户",
+        "span": [
+          32,
+          34
+        ]
+      },
+      {
+        "variable_description": [
+          "系统不满足主备倒换条",
+          "自动倒换失败"
+        ],
+        "span": [
+          [
+            2,
+            12
+          ],
+          [
+            24,
+            30
+          ]
+        ]
+      },
+      {
+        "action": "手动进行主用主控板和备用主控板的倒换",
+        "span": [
+          36,
+          54
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果流策略包含的流行为配置了如下动作，则不能在VLANIF接口的出方向上应用该流策略：",
+    "rule_list": [
+      {
+        "subject": "流策略包含的流行为",
+        "span": [
+          2,
+          11
+        ]
+      },
+      {
+        "variable_description": [
+          "配置了如下动作"
+        ],
+        "span": [
+          [
+            11,
+            18
+          ]
+        ]
+      },
+      {
+        "action": "不能在VLANIF接口的出方向上应用该流策略",
+        "span": [
+          20,
+          42
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果希望在不重置MSDP对等体的情况下清除MSDP对等体的统计信息，请使用 **reset msdp statistics**命令。",
+    "rule_list": [
+      {
+        "subject": "**reset msdp statistics**命令",
+        "span": [
+          38,
+          65
+        ]
+      },
+      {
+        "variable_description": [
+          "希望在不重置MSDP对等体的情况下清除MSDP对等体的统计信息"
+        ],
+        "span": [
+          [
+            2,
+            33
+          ]
+        ]
+      },
+      {
+        "action": "使用 **reset msdp statistics**命令",
+        "span": [
+          35,
+          65
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，发送BGP更新报文时，AS_Path属性可以携带私有AS号。",
+    "rule_list": [
+      {
+        "subject": "BGP更新报文",
+        "span": [
+          8,
+          15
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况下，发送BGP更新报文"
+        ],
+        "span": [
+          [
+            0,
+            15
+          ]
+        ]
+      },
+      {
+        "action": "携带私有AS号",
+        "span": [
+          28,
+          35
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "为了保护CPU，保证CPU对正常业务的处理和响应，交换机提供了本机防攻击功能。",
+    "rule_list": [
+      {
+        "subject": "交换机",
+        "span": [
+          25,
+          28
+        ]
+      },
+      {
+        "variable_description": [
+          "为了保护CPU，保证CPU对正常业务的处理和响应"
+        ],
+        "span": [
+          [
+            0,
+            24
+          ]
+        ]
+      },
+      {
+        "action": "提供了本机防攻击功能",
+        "span": [
+          28,
+          38
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，OSPFv3区域未配置安全联盟。",
+    "rule_list": [
+      {
+        "subject": "OSPFv3区域",
+        "span": [
+          6,
+          14
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未配置安全联盟",
+        "span": [
+          14,
+          21
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果算法套定制策略已经被SSL策略引用，可以对算法套进行增加、修改和部分删除，但不能将算法套定制策略中的算法套全部删除。",
+    "rule_list": [
+      {
+        "subject": "算法套定制策略中的算法套",
+        "span": [
+          43,
+          55
+        ]
+      },
+      {
+        "variable_description": [
+          "算法套定制策略已经被SSL策略引用"
+        ],
+        "span": [
+          [
+            2,
+            19
+          ]
+        ]
+      },
+      {
+        "action": "对算法套进行增加、修改和部分删除，但不能将算法套定制策略中的算法套全部删除",
+        "span": [
+          22,
+          59
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，Portal认证时设备放通DNS报文功能处于关闭状态。",
+    "rule_list": [
+      {
+        "subject": "Portal认证时设备放通DNS报文功能",
+        "span": [
+          6,
+          26
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "处于关闭状态",
+        "span": [
+          26,
+          32
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未配置指向Portal服务器的重定向URL。",
+    "rule_list": [
+      {
+        "subject": "指向Portal服务器的重定向URL",
+        "span": [
+          9,
+          27
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未配置",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未配置客户端自动获取IP地址后下一步使用的文件服务器地址。",
+    "rule_list": [
+      {
+        "subject": "客户端自动获取IP地址后下一步使用的文件服务器地址",
+        "span": [
+          9,
+          34
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未配置",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未配置用户在接入认证各阶段的网络访问权限。",
+    "rule_list": [
+      {
+        "subject": "用户在接入认证各阶段的网络访问权限",
+        "span": [
+          9,
+          26
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未配置",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，SNMP发送标准错误码，只有使能了扩展错误码功能后，才能向网管发送扩展错误码。",
+    "rule_list": [
+      {
+        "subject": "SNMP",
+        "span": [
+          6,
+          10
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "发送标准错误码，只有使能了扩展错误码功能后，才能向网管发送扩展错误码",
+        "span": [
+          10,
+          44
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "用户已经执行 **script-assistant python** _script-name_ 命令配置Python脚本助手，必须先删除脚本助手，才能卸载该脚本。",
+    "rule_list": [
+      {
+        "subject": "用户",
+        "span": [
+          0,
+          2
+        ]
+      },
+      {
+        "variable_description": [
+          "用户已经执行 **script-assistant python** _script-name_ 命令配置Python脚本助手"
+        ],
+        "span": [
+          [
+            0,
+            63
+          ]
+        ]
+      },
+      {
+        "action": "必须先删除脚本助手，才能卸载该脚本",
+        "span": [
+          64,
+          81
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果默认情况不能满足VPN的需求，需要对VPN应用隧道策略。",
+    "rule_list": [
+      {
+        "subject": "VPN",
+        "span": [
+          10,
+          13
+        ]
+      },
+      {
+        "variable_description": [
+          "默认情况不能满足VPN的需求"
+        ],
+        "span": [
+          [
+            2,
+            16
+          ]
+        ]
+      },
+      {
+        "action": "对VPN应用隧道策略",
+        "span": [
+          19,
+          29
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "使用光电混合缆受电时，必须使用第二代光电混合缆配套的尾纤/跳线和光电混合光模块。",
+    "rule_list": [
+      {
+        "subject": "光电混合缆受电",
+        "span": [
+          2,
+          9
+        ]
+      },
+      {
+        "variable_description": [
+          "使用光电混合缆受电"
+        ],
+        "span": [
+          [
+            0,
+            9
+          ]
+        ]
+      },
+      {
+        "action": "必须使用第二代光电混合缆配套的尾纤/跳线和光电混合光模块",
+        "span": [
+          11,
+          39
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果要将一个区域配置成Stub区域，则该区域中的所有交换机都必须配置此属性。",
+    "rule_list": [
+      {
+        "subject": "该区域中的所有交换机区域",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "要将一个区域配置成Stub区域"
+        ],
+        "span": [
+          [
+            2,
+            17
+          ]
+        ]
+      },
+      {
+        "action": "必须配置此属性",
+        "span": [
+          30,
+          37
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "用户在对该表进行读取操作前，必须执行ospf mib-binding process-id命令将指定OSPF进程绑定到SNMP上。",
+    "rule_list": [
+      {
+        "subject": "用户",
+        "span": [
+          0,
+          2
+        ]
+      },
+      {
+        "variable_description": [
+          "对该表进行读取操作前"
+        ],
+        "span": [
+          [
+            3,
+            13
+          ]
+        ]
+      },
+      {
+        "action": "必须执行ospf mib-binding process-id命令将指定OSPF进程绑定到SNMP上",
+        "span": [
+          14,
+          64
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，没有配置主VLAN下的隔离型从VLAN。",
+    "rule_list": [
+      {
+        "subject": "主VLAN下的隔离型从VLAN",
+        "span": [
+          10,
+          25
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "没有配置",
+        "span": [
+          6,
+          10
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "配置组播基本功能后，在SwitchD上配置SSM Mapping功能，可以实现此需求。",
+    "rule_list": [
+      {
+        "subject": "SSM Mapping功能",
+        "span": [
+          21,
+          34
+        ]
+      },
+      {
+        "variable_description": [
+          "配置组播基本功能后，在SwitchD上配置"
+        ],
+        "span": [
+          [
+            0,
+            21
+          ]
+        ]
+      },
+      {
+        "action": "可以实现此需求",
+        "span": [
+          35,
+          42
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果BFD会话的检测时间小于链路的延迟时间，则在BFD会话视图下执行 **detect-multiplier**命令、 **min-rx-interval**命令和 **min-tx-interval**命令调整BFD会话的检测时间，使之大于链路的延迟时间。",
+    "rule_list": [
+      {
+        "subject": "BFD会话视图",
+        "span": [
+          24,
+          31
+        ]
+      },
+      {
+        "variable_description": [
+          "BFD会话的检测时间小于链路的延迟时间"
+        ],
+        "span": [
+          [
+            2,
+            21
+          ]
+        ]
+      },
+      {
+        "action": "在BFD会话视图下执行 **detect-multiplier**命令、 **min-rx-interval**命令和 **min-tx-interval**命令调整BFD会话的检测时间，使之大于链路的延迟时间",
+        "span": [
+          23,
+          128
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，MA内MEP发送或探测CCM消息的时间间隔是1秒。",
+    "rule_list": [
+      {
+        "subject": "MA内MEP",
+        "span": [
+          6,
+          12
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "发送或探测CCM消息的时间间隔是1秒",
+        "span": [
+          12,
+          30
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，不限制IPv4公网的最大路由前缀数。",
+    "rule_list": [
+      {
+        "subject": "IPv4公网的最大路由前缀数",
+        "span": [
+          9,
+          23
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "不限制",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "未配置MLD Snooping时，组播转发正常。",
+    "rule_list": [
+      {
+        "subject": "组播",
+        "span": [
+          17,
+          19
+        ]
+      },
+      {
+        "variable_description": [
+          "未配置MLD Snooping"
+        ],
+        "span": [
+          [
+            0,
+            15
+          ]
+        ]
+      },
+      {
+        "action": "转发正常",
+        "span": [
+          19,
+          23
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果需要精确了解某段时间内地址前缀列表的允许和拒绝统计计数信息，可以先使用 **reset ip ip-prefix**命令清除该统计计数，再开始统计。",
+    "rule_list": [
+      {
+        "subject": "**reset ip ip-prefix**命令",
+        "span": [
+          38,
+          62
+        ]
+      },
+      {
+        "variable_description": [
+          "精确了解某段时间内地址前缀列表的允许和拒绝统计计数信息"
+        ],
+        "span": [
+          [
+            4,
+            31
+          ]
+        ]
+      },
+      {
+        "action": "清除该统计计数，再开始统计",
+        "span": [
+          62,
+          75
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "满足创建BFD会话的条件后，IS-IS将通过RM模块通知BFD模块直接在邻居间创建BFD会话。",
+    "rule_list": [
+      {
+        "subject": "IS-IS",
+        "span": [
+          14,
+          19
+        ]
+      },
+      {
+        "variable_description": [
+          "满足创建BFD会话的条件"
+        ],
+        "span": [
+          [
+            0,
+            12
+          ]
+        ]
+      },
+      {
+        "action": "通过RM模块通知BFD模块直接在邻居间创建BFD会话",
+        "span": [
+          20,
+          46
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，设备向Portal服务器主动发送报文时使用的目的端口号为50100。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "向Portal服务器主动发送报文时使用的目的端口号为50100",
+        "span": [
+          8,
+          39
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，流分类中各规则之间的关系为\"逻辑与\"。",
+    "rule_list": [
+      {
+        "subject": "流分类中各规则",
+        "span": [
+          6,
+          13
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "关系为\"逻辑与\"",
+        "span": [
+          16,
+          24
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "执行该命令之前，需要先在VSI-BGPAD视图下执行 **vpls-id** _vpls-id_ 命令配置VPLS ID。",
+    "rule_list": [
+      {
+        "subject": "VSI-BGPAD视图",
+        "span": [
+          12,
+          23
+        ]
+      },
+      {
+        "variable_description": [
+          "执行该命令之前"
+        ],
+        "span": [
+          [
+            0,
+            7
+          ]
+        ]
+      },
+      {
+        "action": "在VSI-BGPAD视图下执行 **vpls-id** _vpls-id_ 命令配置VPLS ID",
+        "span": [
+          24,
+          60
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果不指定OSPF进程号，该命令将显示所有OSPF进程的错误信息。",
+    "rule_list": [
+      {
+        "subject": "该命令",
+        "span": [
+          13,
+          16
+        ]
+      },
+      {
+        "variable_description": [
+          "不指定OSPF进程号"
+        ],
+        "span": [
+          [
+            2,
+            12
+          ]
+        ]
+      },
+      {
+        "action": "显示所有OSPF进程的错误信息",
+        "span": [
+          17,
+          32
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，流分类中各规则之间的关系为\"逻辑与\"。",
+    "rule_list": [
+      {
+        "subject": "流分类中各规则",
+        "span": [
+          6,
+          13
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "关系为\"逻辑与\"",
+        "span": [
+          16,
+          24
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当命令中指定 **name** _acl-name_ 时，需要通过 **acl name**或者 **acl ipv6 name**命令创建对应的ACL，否则命令配置不成功。",
+    "rule_list": [
+      {
+        "subject": "命令",
+        "span": [
+          1,
+          3
+        ]
+      },
+      {
+        "variable_description": [
+          "命令中指定 **name** _acl-name_ "
+        ],
+        "span": [
+          [
+            4,
+            28
+          ]
+        ]
+      },
+      {
+        "action": "通过 **acl name**或者 **acl ipv6 name**命令创建对应的ACL，否则命令配置不成功",
+        "span": [
+          29,
+          86
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，AP组下引用名为 **default** 的AP系统模板。",
+    "rule_list": [
+      {
+        "subject": "AP组",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "引用名为 **default** 的AP系统模板",
+        "span": [
+          10,
+          34
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，QoS模板中没有配置流量监管。",
+    "rule_list": [
+      {
+        "subject": "QoS模板",
+        "span": [
+          6,
+          11
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "没有配置流量监管",
+        "span": [
+          12,
+          20
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，控制台显示功能处于使能状态，用户终端显示功能处于未使能状态。",
+    "rule_list": [
+      {
+        "subject": "控制台显示功能",
+        "span": [
+          6,
+          13
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "控制台显示功能处于使能状态，用户终端显示功能处于未使能状态",
+        "span": [
+          6,
+          35
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果阻塞端口不是无邻居主边缘端口的兄弟端口，那么由无邻居主边缘端口的兄弟端口发送阻塞抢占报文。",
+    "rule_list": [
+      {
+        "subject": "无邻居主边缘端口的兄弟端口",
+        "span": [
+          8,
+          21
+        ]
+      },
+      {
+        "variable_description": [
+          "阻塞端口不是无邻居主边缘端口的兄弟端口"
+        ],
+        "span": [
+          [
+            2,
+            21
+          ]
+        ]
+      },
+      {
+        "action": "发送阻塞抢占报文",
+        "span": [
+          38,
+          46
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "用户的数据报文转发方式配置为Soft-GRE转发前，必须先配置对应的Soft-GRE模板，使数据报文按照Soft-GRE模板中配置的参数进行转发。",
+    "rule_list": [
+      {
+        "subject": "用户的数据报文转发方式",
+        "span": [
+          0,
+          11
+        ]
+      },
+      {
+        "variable_description": [
+          "配置为Soft-GRE转发前"
+        ],
+        "span": [
+          [
+            11,
+            25
+          ]
+        ]
+      },
+      {
+        "action": "必须先配置对应的Soft-GRE模板，使数据报文按照Soft-GRE模板中配置的参数进行转发",
+        "span": [
+          26,
+          72
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，IS-IS接口在IPv6网路中的开销为10。",
+    "rule_list": [
+      {
+        "subject": "IS-IS接口",
+        "span": [
+          6,
+          13
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "在IPv6网路中的开销为10",
+        "span": [
+          13,
+          27
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，设备定时向iMaster NCE-Campus发送HACA注册同步报文的时间间隔为15分钟。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "定时向iMaster NCE-Campus发送HACA注册同步报文的时间间隔为15分钟",
+        "span": [
+          8,
+          51
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，SSID模板中的SSID为HUAWEI-WLAN。",
+    "rule_list": [
+      {
+        "subject": "SSID模板中的SSID",
+        "span": [
+          6,
+          18
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "HUAWEI-WLAN",
+        "span": [
+          19,
+          30
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当LDP LSP被删除时，BFD的状态变为Down。",
+    "rule_list": [
+      {
+        "subject": "BFD的状态",
+        "span": [
+          13,
+          19
+        ]
+      },
+      {
+        "variable_description": [
+          "LDP LSP被删除"
+        ],
+        "span": [
+          [
+            1,
+            11
+          ]
+        ]
+      },
+      {
+        "action": "变为Down",
+        "span": [
+          19,
+          25
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "当电源模块温度高于设定值时，电源模块会处于保护状态，停止为交换机供电，降温后自动恢复供电。",
+    "rule_list": [
+      {
+        "subject": "电源模块",
+        "span": [
+          1,
+          5
+        ]
+      },
+      {
+        "variable_description": [
+          "电源模块温度高于设定值"
+        ],
+        "span": [
+          [
+            1,
+            12
+          ]
+        ]
+      },
+      {
+        "action": "处于保护状态，停止为交换机供电，降温后自动恢复供电",
+        "span": [
+          19,
+          44
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，BGP只比较属于同一AS的EBGP对等体的路由的MED属性值。",
+    "rule_list": [
+      {
+        "subject": "BGP",
+        "span": [
+          6,
+          9
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "只比较属于同一AS的EBGP对等体的路由的MED属性值",
+        "span": [
+          9,
+          36
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "指定客户端认证前，设备把用户加入到相应用户组。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          9,
+          11
+        ]
+      },
+      {
+        "variable_description": [
+          "指定客户端认证前"
+        ],
+        "span": [
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "action": "把用户加入到相应用户组",
+        "span": [
+          11,
+          22
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，FML2QinQVlanInnerVlanIdEnd取值是0。",
+    "rule_list": [
+      {
+        "subject": "FML2QinQVlanInnerVlanIdEnd",
+        "span": [
+          6,
+          32
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "取值是0",
+        "span": [
+          32,
+          36
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，NQA测试查找路由表发送报文。",
+    "rule_list": [
+      {
+        "subject": "NQA测试",
+        "span": [
+          6,
+          11
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "查找路由表发送报文",
+        "span": [
+          11,
+          20
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "为了保证MPP的网络吞吐量，不推荐用户在MPP上配置接入型VAP。",
+    "rule_list": [
+      {
+        "subject": "用户",
+        "span": [
+          17,
+          19
+        ]
+      },
+      {
+        "variable_description": [
+          "为了保证MPP的网络吞吐量"
+        ],
+        "span": [
+          [
+            0,
+            13
+          ]
+        ]
+      },
+      {
+        "action": "不推荐用户在MPP上配置接入型VAP",
+        "span": [
+          14,
+          32
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，没有配置任何IPv6静态路由。",
+    "rule_list": [
+      {
+        "subject": "IPv6静态路由",
+        "span": [
+          12,
+          20
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "没有配置任何IPv6静态路由",
+        "span": [
+          6,
+          20
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，hwL2QinQVlanChangedInnerVlanId取值是0。",
+    "rule_list": [
+      {
+        "subject": "hwL2QinQVlanChangedInnerVlanId",
+        "span": [
+          6,
+          36
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "取值是0",
+        "span": [
+          36,
+          40
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "由于Hold-max-cost模式只是单向抑制，因此，对端设备如果不支持邻居震荡抑制功能，可能会造成对端设备的流量上下行路径不一致。",
+    "rule_list": [
+      {
+        "subject": "对端设备",
+        "span": [
+          27,
+          31
+        ]
+      },
+      {
+        "variable_description": [
+          "不支持邻居震荡抑制功能",
+          "Hold-max-cost模式只是单向抑制"
+        ],
+        "span": [
+          [
+            33,
+            44
+          ],
+          [
+            2,
+            23
+          ]
+        ]
+      },
+      {
+        "action": "可能会造成对端设备的流量上下行路径不一致",
+        "span": [
+          45,
+          65
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果设备是某个VRRP6备份组的IP地址拥有者，将显示设备在该备份组的运行优先级为255。",
+    "rule_list": [
+      {
+        "subject": "设备在该备份组的运行优先级",
+        "span": [
+          27,
+          40
+        ]
+      },
+      {
+        "variable_description": [
+          "设备是某个VRRP6备份组的IP地址拥有者"
+        ],
+        "span": [
+          [
+            2,
+            23
+          ]
+        ]
+      },
+      {
+        "action": "显示设备在该备份组的运行优先级为255",
+        "span": [
+          25,
+          44
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果客户希望将License订单中的一个资源型License，拆分成多个不同的License，供多台设备使用，则可以在ESDP系统上进行License授权拆分。",
+    "rule_list": [
+      {
+        "subject": "ESDP系统",
+        "span": [
+          59,
+          65
+        ]
+      },
+      {
+        "variable_description": [
+          "客户希望将License订单中的一个资源型License，拆分成多个不同的License，供多台设备使用"
+        ],
+        "span": [
+          [
+            2,
+            54
+          ]
+        ]
+      },
+      {
+        "action": "在ESDP系统上进行License授权拆分",
+        "span": [
+          58,
+          79
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，AP上报全量无线设备信息的间隔时间为360分钟。",
+    "rule_list": [
+      {
+        "subject": "AP",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "上报全量无线设备信息的间隔时间为360分钟",
+        "span": [
+          8,
+          29
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，系统未配置DHCP客户端获取启动配置文件的服务器名称。",
+    "rule_list": [
+      {
+        "subject": "系统",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未配置DHCP客户端获取启动配置文件的服务器名称",
+        "span": [
+          8,
+          32
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，VBDIF接口未绑定任何VPN实例。",
+    "rule_list": [
+      {
+        "subject": "VBDIF接口",
+        "span": [
+          6,
+          13
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未绑定任何VPN实例",
+        "span": [
+          13,
+          23
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，设备未配置BD域内的NS组播抑制功能。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "未配置BD域内的NS组播抑制功能",
+        "span": [
+          8,
+          24
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "配置ACL规则时，为ACL规则添加描述信息，可以方便理解和记忆该ACL规则的功能或具体用途。",
+    "rule_list": [
+      {
+        "subject": "ACL规则",
+        "span": [
+          2,
+          7
+        ]
+      },
+      {
+        "variable_description": [
+          "配置ACL规则"
+        ],
+        "span": [
+          [
+            0,
+            7
+          ]
+        ]
+      },
+      {
+        "action": "添加描述信息，可以方便理解和记忆该ACL规则的功能或具体用途",
+        "span": [
+          15,
+          45
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "在S5700LI V200R003C02设备上，VLAN Mapping的出方向映射与流策略功能同时配置会发生资源冲突",
+    "rule_list": [
+      {
+        "subject": "VLAN Mapping的出方向映射",
+        "span": [
+          24,
+          42
+        ]
+      },
+      {
+        "variable_description": [
+          "在S5700LI V200R003C02设备上"
+        ],
+        "span": [
+          [
+            0,
+            23
+          ]
+        ]
+      },
+      {
+        "action": "与流策略功能同时配置会发生资源冲突",
+        "span": [
+          42,
+          59
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "设备启动配置恢复阶段，开启外置Portal对接服务时某些初始化未完成导致服务启动失败。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          0,
+          2
+        ]
+      },
+      {
+        "variable_description": [
+          "启动配置恢复阶段",
+          "开启外置Portal对接服务时"
+        ],
+        "span": [
+          [
+            2,
+            10
+          ],
+          [
+            11,
+            26
+          ]
+        ]
+      },
+      {
+        "action": "某些初始化未完成导致服务启动失败",
+        "span": [
+          26,
+          42
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，未配置静态用户进行认证时的用户名为MAC地址。",
+    "rule_list": [
+      {
+        "subject": "用户名",
+        "span": [
+          19,
+          22
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况",
+          "未配置静态用户进行认证时"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            18
+          ]
+        ]
+      },
+      {
+        "action": "为MAC地址",
+        "span": [
+          22,
+          28
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "在性能不稳定的网络中，网络堵塞可能导致Backup设备在Master_Down_Interval期间没有收到Master设备的报文",
+    "rule_list": [
+      {
+        "subject": "网络堵塞",
+        "span": [
+          11,
+          15
+        ]
+      },
+      {
+        "variable_description": [
+          "在性能不稳定的网络中，"
+        ],
+        "span": [
+          [
+            0,
+            11
+          ]
+        ]
+      },
+      {
+        "action": "可能导致Backup设备在Master_Down_Interval期间没有收到Master设备的报文",
+        "span": [
+          15,
+          65
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，接口ICMP TTL超时报文发送功能打开。",
+    "rule_list": [
+      {
+        "subject": "接口ICMP TTL超时报文发送功能",
+        "span": [
+          6,
+          24
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "打开",
+        "span": [
+          24,
+          26
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "执行 **ipv6 neighbor** 命令配置静态邻居表项信息前，需要在接口视图下执行 **ipv6 enable**命令使能接口的IPv6功能。",
+    "rule_list": [
+      {
+        "subject": "接口视图",
+        "span": [
+          38,
+          42
+        ]
+      },
+      {
+        "variable_description": [
+          "执行 **ipv6 neighbor** 命令配置静态邻居表项信息前"
+        ],
+        "span": [
+          [
+            0,
+            34
+          ]
+        ]
+      },
+      {
+        "action": "需要在接口视图下执行 **ipv6 enable**命令使能接口的IPv6功能",
+        "span": [
+          43,
+          74
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，没有配置任何IPv6静态路由。",
+    "rule_list": [
+      {
+        "subject": "IPv6静态路由",
+        "span": [
+          12,
+          20
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "没有配置",
+        "span": [
+          6,
+          10
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，设备收到的DHCP报文时，不检查magic-cookie字段，直接转发字段错误的DHCP报文。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          6,
+          8
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况",
+          "收到的DHCP报文"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ],
+          [
+            8,
+            17
+          ]
+        ]
+      },
+      {
+        "action": "不检查magic-cookie字段，直接转发字段错误的DHCP报文",
+        "span": [
+          19,
+          52
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "链路两端的IS-IS接口的网络类型必须一致，否则双方不可以建立起邻居关系。",
+    "rule_list": [
+      {
+        "subject": "链路两端的IS-IS接口的网络类型",
+        "span": [
+          0,
+          17
+        ]
+      },
+      {
+        "variable_description": [
+          "必须一致"
+        ],
+        "span": [
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "action": "否则双方不可以建立起邻居关系",
+        "span": [
+          22,
+          36
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "如果通过 **isis circuit-type**命令将广播接口模拟为P2P接口，或者通过 **undo isis circuit-type**命令将某P2P接口恢复为广播接口，则点到点链路上LSP报文的重传间隔时间恢复为缺省值。",
+    "rule_list": [
+      {
+        "subject": "点到点链路",
+        "span": [
+          91,
+          96
+        ]
+      },
+      {
+        "variable_description": [
+          "通过 **isis circuit-type**命令将广播接口模拟为P2P接口",
+          "通过 **undo isis circuit-type**命令将某P2P接口恢复为广播接口"
+        ],
+        "span": [
+          [
+            2,
+            41
+          ],
+          [
+            44,
+            89
+          ]
+        ]
+      },
+      {
+        "action": "LSP报文的重传间隔时间恢复为缺省值",
+        "span": [
+          97,
+          115
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "缺省情况下，封装在SA消息中组播数据报文的TTL阈值为0。",
+    "rule_list": [
+      {
+        "subject": "封装在SA消息中组播数据报文的TTL",
+        "span": [
+          6,
+          24
+        ]
+      },
+      {
+        "variable_description": [
+          "缺省情况"
+        ],
+        "span": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "action": "阈值为0",
+        "span": [
+          24,
+          28
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "由于PE1和PE2设备不支持SEP协议，故在LSW1和LSW2设备上选择的端口角色必须是无邻居边缘端口。",
+    "rule_list": [
+      {
+        "subject": "LSW1和LSW2设备上选择的端口角色",
+        "span": [
+          22,
+          41
+        ]
+      },
+      {
+        "variable_description": [
+          "PE1和PE2设备不支持SEP协议"
+        ],
+        "span": [
+          [
+            2,
+            19
+          ]
+        ]
+      },
+      {
+        "action": "必须是无邻居边缘端口",
+        "span": [
+          41,
+          51
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "LSW1和LSW2设备上选择的端口角色必须是无邻居边缘端口。",
+    "rule_list": [
+      {
+        "subject": "端口角色",
+        "span": [
+          15,
+          19
+        ]
+      },
+      {
+        "variable_description": [
+          "LSW1和LSW2设备上选择的端口角色"
+        ],
+        "span": [
+          [
+            0,
+            19
+          ]
+        ]
+      },
+      {
+        "action": "必须是无邻居边缘端口",
+        "span": [
+          19,
+          29
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  },
+  {
+    "sentence": "锂电池放电过程中，温度高于高温阈值，设备会发出告警。",
+    "rule_list": [
+      {
+        "subject": "设备",
+        "span": [
+          18,
+          20
+        ]
+      },
+      {
+        "variable_description": [
+          "锂电池放电过程中",
+          "温度高于高温阈值"
+        ],
+        "span": [
+          [
+            0,
+            8
+          ],
+          [
+            9,
+            17
+          ]
+        ]
+      },
+      {
+        "action": "发出告警",
+        "span": [
+          21,
+          25
+        ]
+      },
+      {
+        "type": "description"
+      }
+    ]
+  }
+]

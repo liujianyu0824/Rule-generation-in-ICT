@@ -1,0 +1,252 @@
+[
+    {
+        "instruction": "description",
+        "input": "为了使设备空配置启动时能够自动执行ZTP流程，需要开启设备的ZTP功能。",
+        "output": "{'Subject': '设备的ZTP功能', 'Trigger Condition': '为了使设备空配置启动时能够自动执行ZTP流程', 'Action': '开启设备的ZTP功能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，全局的LLDP功能处于去使能状态。",
+        "output": "{'Subject': '全局的LLDP功能', 'Trigger Condition': '缺省情况', 'Action': '处于去使能状态'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，未创建Portal服务器模板。",
+        "output": "{'Subject': 'Portal服务器模板', 'Trigger Condition': '缺省情况', 'Action': '未创建'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，DHCP Server为BOOTP Client动态分配地址的功能处于关闭状态。",
+        "output": "{'Subject': 'DHCP Server为BOOTP Client动态分配地址的功能', 'Trigger Condition': '缺省情况', 'Action': '处于关闭状态'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，未使能丢弃TTL超期的IP报文。",
+        "output": "{'Subject': '丢弃TTL超期的IP报文', 'Trigger Condition': '缺省情况', 'Action': '未使能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，远端模块接口供电延迟时间为0，即不延迟。",
+        "output": "{'Subject': '远端模块', 'Trigger Condition': '缺省情况', 'Action': '接口供电延迟时间为0，即不延迟'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，系统未配置PKI实体的IP地址。",
+        "output": "{'Subject': '系统', 'Trigger Condition': '缺省情况', 'Action': '未配置PKI实体的IP地址'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，组播表项资源使用率的告警上限阈值为85%，下限阈值为75%。",
+        "output": "{'Subject': '组播表项资源使用率', 'Trigger Condition': '缺省情况', 'Action': '告警上限阈值为85%，下限阈值为75%'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，BFD会话震荡抑制功能处于使能状态。",
+        "output": "{'Subject': 'BFD会话震荡抑制功能', 'Trigger Condition': '缺省情况', 'Action': '处于使能状态'}"
+    },
+    {
+        "instruction": "description",
+        "input": "只有PIM-SM使用ASM模型时，才需要使用MSDP。",
+        "output": "{'Subject': 'PIM-SM', 'Trigger Condition': '使用ASM模型', 'Action': '需要使用MSD'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，本端设备收到来自EBGP对等体的路由，会向AS为200的所有EBGP邻居发布此路由。",
+        "output": "{'Subject': '本端设备', 'Trigger Condition': '缺省情况', 'Action': '收到来自EBGP对等体的路由，会向AS为200的所有EBGP邻居发布此路由'}"
+    },
+    {
+        "instruction": "description",
+        "input": "在没有配置EasyDeploy功能的情况下，使用 **undo startup saved-configuration** 命令配置设备下一次启动的配置文件为空，设备将以空配置启动。",
+        "output": "{'Subject': '设备', 'Trigger Condition': '没有配置EasyDeploy功能的情况下，使用 **undo startup saved-configuration** 命令配置设备下一次启动的配置文件为空', 'Action': '以空配置启动'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果用户希望使用动态域名解析功能，通过DNS服务器来获取域名对应的IP地址，则需要在设备上执行 **dns resolve** 命令开启设备的动态域名解析功能。",
+        "output": "{'Subject': '用户', 'Trigger Condition': '希望使用动态域名解析功能，通过DNS服务器来获取域名对应的IP地址', 'Action': '需要在设备上执行 **dns resolve** 命令开启设备的动态域名解析功能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "若设备上存在大量的Pre-authen类型的MAC地址表项信息，在使用本命令时，推荐通过指定VLAN或使用管道符的方式对显示的信息进行过滤。否则可能会因为显示信息过多而导致：",
+        "output": "{'Subject': '使用本命令', 'Trigger Condition': '设备上存在大量的Pre-authen类型的MAC地址表项信息', 'Action': '推荐通过指定VLAN或使用管道符的方式对显示的信息进行过滤'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，SRv6报文的解封装功能处于未使能状态。",
+        "output": "{'Subject': 'SRv6报文的解封装功能', 'Trigger Condition': '缺省情况', 'Action': '处于未使能状态'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，MSTP进程所有端口均被配置为非边缘端口。",
+        "output": "{'Subject': 'MSTP进程所有端口', 'Trigger Condition': '缺省情况', 'Action': '被配置为非边缘端口'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果只需要访问某几个用户，而对其他用户没有访问需求，这时可以使用 **route-policy** _route-policy-name_ 参数对发布的IPv4 ARP Vlink直连路由进行过滤，从而控制路由表的规模，并且实现对数据流量的精确控制。",
+        "output": "{'Subject': '用户', 'Trigger Condition': '只需要访问某几个用户，而对其他用户没有访问需求', 'Action': '使用 **route-policy** _route-policy-name_ 参数对发布的IPv4 ARP Vlink直连路由进行过滤'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果在主机侧共享网段上有多个组播交换机，由于不同版本的MLD协议报文结构不同，为了保证MLD的正常运行，必须在所有组播交换机与组成员相连的接口上配置相同版本的MLD。",
+        "output": "{'Subject': '所有组播交换机与组成员相连的接口', 'Trigger Condition': '在主机侧共享网段上有多个组播交换机，由于不同版本的MLD协议报文结构不同，为了保证MLD的正常运行', 'Action': '配置相同版本的MLD'}"
+    },
+    {
+        "instruction": "description",
+        "input": "当用户需要从本端设备远程登录到远端设备上进行远端管理时，可在远端设备上的管理VLAN对应的VLANIF接口上部署QinQ Stacking功能实现。",
+        "output": "{'Subject': '用户', 'Trigger Condition': '需要从本端设备远程登录到远端设备上进行远端管理', 'Action': '在远端设备上的管理VLAN对应的VLANIF接口上部署QinQ Stacking功能实现'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，交换机向NetStream服务器发送NetStream流输出模板的时间间隔为30分钟。",
+        "output": "{'Subject': '交换机', 'Trigger Condition': '缺省情况', 'Action': '向NetStream服务器发送NetStream流输出模板的时间间隔为30分钟'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果网络中有多条冗余链路，通过配置最大等价路由条数可以实现负载分担，从而充分的利用网络资源，避免造成有些链路空闲而有些链路繁忙、延迟过大的现象。",
+        "output": "{'Subject': '网络', 'Trigger Condition': '网络中有多条冗余链路', 'Action': '配置最大等价路由条数可以实现负载分担，从而充分的利用网络资源，避免造成有些链路空闲而有些链路繁忙、延迟过大的现象'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，触发阈值告警的CR-LSP总数的使用率上限为80%",
+        "output": "{'Subject': '触发阈值告警的CR-LSP总数的使用率', 'Trigger Condition': '缺省情况', 'Action': '上限为80%'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，未配置单臂回声功能的BFD会话。",
+        "output": "{'Subject': '单臂回声功能的BFD会话', 'Trigger Condition': '缺省情况', 'Action': '未配置'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，Portal认证时所使用的协议为Portal协议。",
+        "output": "{'Subject': 'Portal认证', 'Trigger Condition': '缺省情况', 'Action': '所使用的协议为Portal协议'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果配置MD5认证，则必须配置MD5的类型。",
+        "output": "{'Subject': 'MD5的类型', 'Trigger Condition': '配置MD5认证', 'Action': '必须配置MD5的类型'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果用户希望在Trap缓冲区内看到设备产生的Trap信息时，可以配置Trap信息输出到Trap缓冲区。",
+        "output": "{'Subject': '用户', 'Trigger Condition': '希望在Trap缓冲区内看到设备产生的Trap信息', 'Action': '配置Trap信息输出到Trap缓冲区'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，BGP向EBGP对等体通告路由时，将下一跳属性设为自身的接口地址。",
+        "output": "{'Subject': 'BGP', 'Trigger Condition': '缺省情况', 'Action': '向EBGP对等体通告路由时，将下一跳属性设为自身的接口地址'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果指定的 **cir** 较大导致缺省的 **cbs** 大于4294967295，则交换机使用最大值4294967295。",
+        "output": "{'Subject': '交换机', 'Trigger Condition': '指定的 **cir** 较大导致缺省的 **cbs** 大于429496729', 'Action': '使用最大值4294967295'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果其中某个接口的指示灯闪烁表示该接口的接口号为本设备的堆叠ID。",
+        "output": "{'Subject': '该接口的接口号', 'Trigger Condition': '某个接口的指示灯闪烁', 'Action': '表示该接口的接口号为本设备的堆叠ID'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，ICMP流量抑制功能未使能。",
+        "output": "{'Subject': 'ICMP流量抑制功能', 'Trigger Condition': '缺省情况', 'Action': '未使能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，交换设备的Forward Delay时间是1500厘秒。",
+        "output": "{'Subject': '交换设备的Forward Delay时间', 'Trigger Condition': '缺省情况', 'Action': '1500厘秒'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，Combo接口的工作模式为auto，即自动切换光口模式或电口模式。",
+        "output": "{'Subject': 'Combo接口的工作模式', 'Trigger Condition': '缺省情况', 'Action': '为auto，即自动切换光口模式或电口模式'}"
+    },
+    {
+        "instruction": "description",
+        "input": "当有802.1X用户在线时，则不允许更改接口接入控制方式。",
+        "output": "{'Subject': '接口', 'Trigger Condition': '有802.1X用户在线', 'Action': '不允许更改接口接入控制方式'}"
+    },
+    {
+        "instruction": "description",
+        "input": "在配置Jitter报文的版本号为2并配置单向丢包统计后，在测试结果中将可以看到，从源端到目的端、从目的端到源端和未知方向的丢包情况。为网络管理员定位网络故障、检测恶意对网络的攻击提供依据。",
+        "output": "{'Subject': '测试结果', 'Trigger Condition': '配置Jitter报文的版本号为2并配置单向丢包统计', 'Action': '在测试结果中将可以看到，从源端到目的端、从目的端到源端和未知方向的丢包情况'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，没有为中间转发节点配置静态LSP。",
+        "output": "{'Subject': '中间转发节点', 'Trigger Condition': '缺省情况', 'Action': '没有为中间转发节点配置静态LSP'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，接口的MAC VLAN功能未使能。",
+        "output": "{'Subject': '接口的MAC VLAN功能', 'Trigger Condition': '缺省情况', 'Action': '未使能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，Kompella方式VLL的告警开关处于关闭状态。",
+        "output": "{'Subject': 'Kompella方式VLL的告警开关', 'Trigger Condition': '缺省情况', 'Action': '处于关闭状态'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果RP到源方向的SPT切换尚未完成，RP不会发送注册停止报文。可能原因是RP到源端DR之间所有设备的接口上配置了不一致的PIM协议。",
+        "output": "{'Subject': 'RP', 'Trigger Condition': 'RP到源方向的SPT切换尚未完成', 'Action': '不会发送注册停止报文'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，DHCPv6报文中没有插入Option79选项。",
+        "output": "{'Subject': 'DHCPv6报文', 'Trigger Condition': '缺省情况', 'Action': '没有插入Option79选项'}"
+    },
+    {
+        "instruction": "description",
+        "input": "必须先执行 **defence engine enable**命令开启IAE引擎才可以执行该命令。",
+        "output": "{'Subject': '命令', 'Trigger Condition': '执行 **defence engine enable**命令开启IAE引擎', 'Action': '执行该命令'}"
+    },
+    {
+        "instruction": "description",
+        "input": "使用区域验证时，一个区域中所有的交换机在该区域下的验证模式和口令必须一致。例如，在Area0内所有交换机上配置验证模式为简单验证，口令为abc。",
+        "output": "{'Subject': '一个区域中所有的交换机', 'Trigger Condition': '使用区域验证', 'Action': '在该区域下的验证模式和口令必须一致'}"
+    },
+    {
+        "instruction": "description",
+        "input": "缺省情况下，设备全局未使能DHCP Snooping功能。",
+        "output": "{'Subject': '设备全局', 'Trigger Condition': '缺省情况', 'Action': '全局未使能DHCP Snooping功能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "当备份CR-LSP的状态为Up，且被保护链路或节点出现故障时，则流量先切换到Bypass CR-LSP后，立即切换到备份CR-LSP上，同时尝试恢复主CR-LSP。",
+        "output": "{'Subject': '流量', 'Trigger Condition': '备份CR-LSP的状态为Up，且被保护链路或节点出现故障', 'Action': '先切换到Bypass CR-LSP后，立即切换到备份CR-LSP上，同时尝试恢复主CR-LSP'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果上行接口同时在使能IPSG功能的VLAN内，则需要将上行口配置成信任接口，否则回程报文会因匹配不到绑定表而被丢弃，导致业务不通。",
+        "output": "{'Subject': '上行口', 'Trigger Condition': '上行接口同时在使能IPSG功能的VLAN内', 'Action': '需要将上行口配置成信任接口，否则回程报文会因匹配不到绑定表而被丢弃，导致业务不通'}"
+    },
+    {
+        "instruction": "description",
+        "input": "动态路由器端口老化时间不能配的太短，否则容易导致路由器端口频繁老化，影响系统性能。",
+        "output": "{'Subject': '路由器端口', 'Trigger Condition': '动态路由器端口老化时间不能配的太短', 'Action': '否则容易导致路由器端口频繁老化，影响系统性能'}"
+    },
+    {
+        "instruction": "description",
+        "input": "若系统中已经配置了VAP模板，可以使用已经存在的VAP模板，也可以按照上述步骤新建VAP模板。",
+        "output": "{'Subject': '系统', 'Trigger Condition': '系统中已经配置了VAP模板', 'Action': '可以使用已经存在的VAP模板，也可以按照上述步骤新建VAP模板'}"
+    },
+    {
+        "instruction": "description",
+        "input": "若网络中使用动态RP，当网络中的DR收到Generation ID改变的Hello报文后，会向发生主备倒换的堆叠系统单播发送Bootstrap报文，堆叠系统从该自举报文中学习并恢复RP信息。",
+        "output": "{'Subject': '堆叠系统', 'Trigger Condition': '若网络中使用动态RP，当网络中的DR收到Generation ID改变的Hello报文', 'Action': '向发生主备倒换的堆叠系统单播发送Bootstrap报文，堆叠系统从该自举报文中学习并恢复RP信息'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果已经使能了check-tunnel-reachable功能，现在需要去使能check-tunnel-reachable功能，可通过重新配置 **peer** { _group-name_ | _ipv4-address_ } **label-route-capability** 命令取代之前的配置来实现。",
+        "output": "{'Subject': 'check-tunnel-reachable功能', 'Trigger Condition': '已经使能了check-tunnel-reachable功能，现在需要去使能check-tunnel-reachable功能', 'Action': '重新配置 **peer** { _group-name_ | _ipv4-address_ } **label-route-capability** 命令取代之前的配置来实现'}"
+    },
+    {
+        "instruction": "description",
+        "input": "当需要根据DiffServ域中定义的映射关系，对流向下游设备的报文进行PHB行为到优先级之间的映射操作时，可以通过本命令将DiffServ域应用到报文的出接口，系统会根据DiffServ域中的映射关系将报文的PHB行为映射为优先级。",
+        "output": "{'Subject': '本命令', 'Trigger Condition': '需要根据DiffServ域中定义的映射关系，对流向下游设备的报文进行PHB行为到优先级之间的映射操作', 'Action': '通过本命令将DiffServ域应用到报文的出接口，系统会根据DiffServ域中的映射关系将报文的PHB行为映射为优先级'}"
+    },
+    {
+        "instruction": "description",
+        "input": "如果由于链路闪断导致的Smart link倒换，会影响报文转发和系统性能，可以通过配置Smart Link倒换的延时解决此问题。",
+        "output": "{'Subject': 'Smart Link倒换', 'Trigger Condition': '由于链路闪断导致的Smart link倒换', 'Action': '会影响报文转发和系统性能，可以通过配置Smart Link倒换的延时解决此问题。'}"
+    }
+]

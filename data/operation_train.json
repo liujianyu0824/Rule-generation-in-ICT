@@ -1,0 +1,152 @@
+[
+    {
+        "instruction": "operation",
+        "input": "收到的分片报文数超过规格，请合理调整对端设备的MTU值。",
+        "output": "{'Subject': '对端设备', 'Trigger Condition': '收到的分片报文数超过规格', 'Action': '合理调整对端设备的MTU值'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果网络中存在攻击者伪造自己是IGMP查询器，发送了比当前IGMP查询器IP地址小的查询报文，从而导致运行了IGMP Snooping的设备把IGMP成员报告报文转发到攻击者的网络接口，造成组播流量不能正常转发。",
+        "output": "{'Subject': '运行了IGMP Snooping的设备', 'Trigger Condition': '网络中存在攻击者伪造自己是IGMP查询器，发送了比当前IGMP查询器IP地址小的查询报文', 'Action': '把IGMP成员报告报文转发到攻击者的网络接口，造成组播流量不能正常转发'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "去使能IP报文检查功能，会导致基于IP子网划分的VLAN、基于策略划分的VLAN和IPv6 over IPv4隧道功能不生效，使用前请确认。",
+        "output": "{'Subject': '基于IP子网划分的VLAN、基于策略划分的VLAN和IPv6 over IPv4隧道功能', 'Trigger Condition': '去使能IP报文检查功能', 'Action': '不生效'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当某接口下出现大量动态ARP表项时，出于安全考虑建议在网关设备上配置禁止该接口学习ARP表项的功能，以防止该接口下所接入的用户主机发起ARP攻击使整个设备的ARP表资源都被耗尽。",
+        "output": "{'Subject': '网关设备', 'Trigger Condition': '某接口下出现大量动态ARP表项', 'Action': '配置禁止该接口学习ARP表项的功能，以防止该接口下所接入的用户主机发起ARP攻击使整个设备的ARP表资源都被耗尽'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "在创建用户组后，可为用户组配置优先级以及VLAN，这样不同用户组内的用户即具有了不同的优先级以及网络访问权限。这将能够使管理员更灵活的管理用户。",
+        "output": "{'Subject': '用户组', 'Trigger Condition': '在创建用户组', 'Action': '为用户组配置优先级以及VLAN，这样不同用户组内的用户即具有了不同的优先级以及网络访问权限。这将能够使管理员更灵活的管理用户。'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果在一个SNMP报文中既包含删除行的操作，又包含设置普通节点的操作，那么总是先执行设置普通节点的操作，然后才执行删除行的操作。",
+        "output": "{'Subject': 'SNMP报文', 'Trigger Condition': '既包含删除行的操作，又包含设置普通节点的操作', 'Action': '先执行设置普通节点的操作，然后才执行删除行的操作'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如图1所示，某公司访客区内终端通过Switch接入公司内部网络。如果该公司内存在非法接入和非授权访问的状况，将会导致企业业务系统的破坏以及关键信息资产的泄露。",
+        "output": "{'Subject': '公司', 'Trigger Condition': '存在非法接入和非授权访问的状况', 'Action': '企业业务系统的破坏以及关键信息资产的泄露'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "对象historyControlOwner在创建时可以不指定，如果不指定则缺省值为null。",
+        "output": "{'Subject': '对象historyControlOwner', 'Trigger Condition': '在创建时可以不指定', 'Action': '缺省值为null'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果使用Loopback接口作为BGP会话接口，PE需要进行此步骤。",
+        "output": "{'Subject': 'PE', 'Trigger Condition': '使用Loopback接口作为BGP会话接口', 'Action': '进行此步骤'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "若要使能MAC漂移触发的Loopback Detection功能，还需完成MAC漂移检测功能的配置，具体配置请参见配置MAC地址漂移检测。",
+        "output": "{'Subject': 'MAC漂移检测功能', 'Trigger Condition': '要使能MAC漂移触发的Loopback Detection功能', 'Action': '还需完成MAC漂移检测功能的配置,，具体配置请参见配置MAC地址漂移检测'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果Smart Link组的接口有Up/Down动作，Smart Link组的状态不会立刻倒换，而是等待延时时间到达后，根据Smart Link组的接口最后获得的Up/Down状态处理Smart Link组的状态，从而抑制了由于链路闪断导致的Smart link倒换。",
+        "output": "{'Subject': 'Smart Link组的状态', 'Trigger Condition': 'Smart Link组的接口有Up/Down动作', 'Action': '等待延时时间到达后，根据Smart Link组的接口最后获得的Up/Down状态处理Smart Link组的状态，从而抑制了由于链路闪断导致的Smart link倒换'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果Switch的某个VLANIF接口成为DR，则这台Switch的其他广播接口在进行后续的DR选择时，具有高优先权。即选择已经是DR的Switch作为DR，DR不可抢占。",
+        "output": "{'Subject': 'Switch的其他广播接口', 'Trigger Condition': 'Switch的某个VLANIF接口成为DR', 'Action': '在进行后续的DR选择时，具有高优先权'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "清除BFD的统计信息后，以前的信息将无法恢复，务必仔细确认。",
+        "output": "{'Subject': '以前的信息', 'Trigger Condition': '清除BFD的统计信息', 'Action': '无法恢复'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "使能分片扩展功能之后，如果存在由于报文装满而丢失的信息，系统会提醒重启IS-IS。",
+        "output": "{'Subject': '系统', 'Trigger Condition': '使能分片扩展功能之后，如果存在由于报文装满而丢失的信息', 'Action': '提醒重启IS-IS'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "用户可能由于在线探测被认证接入设备下线或者下线请求消息发送失败等原因，导致认证控制设备和认证接入设备上的用户不同步。",
+        "output": "{'Subject': '认证控制设备和认证接入设备上的用户', 'Trigger Condition': '用户可能由于在线探测被认证接入设备下线或者下线请求消息发送失败等原因', 'Action': '不同步'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果对直连EBGP对等体使能了GTSM功能，则直连EBGP对等体接口快速感知的功能会失效。",
+        "output": "{'Subject': '直连EBGP对等体接口快速感知的功能', 'Trigger Condition': '对直连EBGP对等体使能了GTSM功能', 'Action': '失效'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "文件过大，在超时时间内未传完，导致超时。",
+        "output": "{'Subject': '文件', 'Trigger Condition': '文件过大，在超时时间内未传完', 'Action': '导致超时'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果与边缘端口相连的是使能了STP功能的网络设备，配置BPDU保护功能后，如果边缘端口收到BPDU报文，边缘端口将会被shutdown，边缘端口属性不变。",
+        "output": "{'Subject': '边缘端口', 'Trigger Condition': '与边缘端口相连的是使能了STP功能的网络设备，配置BPDU保护功能后，如果边缘端口收到BPDU报文', 'Action': '被shutdown，边缘端口属性不变'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果SFTP客户端配置了ACL过滤导致命令执行失败，或者TCP连接失败时，系统将提示不能连接到服务器的错误信息。",
+        "output": "{'Subject': '系统', 'Trigger Condition': 'SFTP客户端配置了ACL过滤导致命令执行失败，或者TCP连接失败', 'Action': '提示不能连接到服务器的错误信息'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "清除流策略统计信息后，以前的统计信息将无法恢复，请于清除之前仔细确认。",
+        "output": "{'Subject': '以前的统计信息', 'Trigger Condition': '清除流策略统计信息', 'Action': '无法恢复'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "启用分片报文攻击防范后，设备在收到这种攻击报文后，直接丢弃该报文。",
+        "output": "{'Subject': '设备', 'Trigger Condition': '启用分片报文攻击防范', 'Action': '直接丢弃该报文'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "开启MAC旁路认证时设备重传EAP-Request/Identity报文的时间间隔。",
+        "output": "{'Subject': '设备', 'Trigger Condition': '开启MAC旁路认证', 'Action': '重传EAP-Request/Identity报文的时间间隔'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果DHCP客户端与DHCP服务器之间存在多个DHCP中继，后面的中继接收到DHCP DISCOVER报文的处理流程同前面所述。",
+        "output": "{'Subject': '后面的中继', 'Trigger Condition': 'DHCP客户端与DHCP服务器之间存在多个DHCP中继', 'Action': '接收到DHCP DISCOVER报文的处理流程同前面所述'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "由于信号质量不好、网线老化等因素，网络中经常发生接口闪断、错包等异常，对业务传输的稳定性造成极大影响。",
+        "output": "{'Subject': '网络中', 'Trigger Condition': '信号质量不好、网线老化等因素', 'Action': '经常发生接口闪断、错包等异常，对业务传输的稳定性造成极大影响'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "在堆叠系统中配置PIM GR功能后，主交换机会向备交换机备份PIM路由表项、组播转发表以及需要向上游发送的Join/Prune信息。",
+        "output": "{'Subject': '主交换机', 'Trigger Condition': '在堆叠系统中配置PIM GR功能', 'Action': '向备交换机备份PIM路由表项、组播转发表以及需要向上游发送的Join/Prune信息'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "启用畸形报文攻击防范后，设备通过检测ICMP请求报文的目标地址是否是广播地址或子网广播地址来避免Smurf攻击。",
+        "output": "{'Subject': '设备', 'Trigger Condition': '启用畸形报文攻击防范', 'Action': '通过检测ICMP请求报文的目标地址是否是广播地址或子网广播地址来避免Smurf攻击'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "在服务器上使能KOD功能后，服务器会根据配置向客户端发送DENY或RATE Kiss码。",
+        "output": "{'Subject': '服务器', 'Trigger Condition': '使能KOD功能', 'Action': '根据配置向客户端发送DENY或RATE Kiss码'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "当接口工作模式由自协商修改为非自协商时，接口的速率和双工模式也会随之恢复到缺省支持的最大值。例如，当GE电口工作在自协商模式时，和对端接口协商的工作速率为100Mbit/s，双工模式为半双工；当接口工作模式修改为非自协商模式后，接口速率将恢复为1000Mbit/s，双工模式为全双工。",
+        "output": "{'Subject': '接口的速率和双工模式', 'Trigger Condition': '接口工作模式由自协商修改为非自协商', 'Action': '恢复到缺省支持的最大值'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "公网路由前缀数超出了系统所能容纳的最大值后，系统每间隔一段时间就会打出一条路由超限的日志。",
+        "output": "{'Subject': '系统', 'Trigger Condition': '公网路由前缀数超出了系统所能容纳的最大值', 'Action': '每间隔一段时间就会打出一条路由超限的日志'}"
+    },
+    {
+        "instruction": "operation",
+        "input": "如果设备生成的日志文件超过所配置的大小，系统会自动将日志文件按照标准zip格式压缩成压缩文件。",
+        "output": "{'Subject': '系统', 'Trigger Condition': '设备生成的日志文件超过所配置的大小', 'Action': '自动将日志文件按照标准zip格式压缩成压缩文件'}"
+    }
+]
